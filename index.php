@@ -183,21 +183,6 @@
     </div>
     <div class="kingster-body-outer-wrapper ">
         <div class="kingster-body-wrapper clearfix  kingster-with-frame">
-            <div class="kingster-top-bar">
-                <div class="kingster-top-bar-background"></div>
-                <div class="kingster-top-bar-container kingster-container ">
-                    <div class="kingster-top-bar-container-inner clearfix">
-                        <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" id="i_fd84_0"></i> contact@KUTheme.edu <i class="fa fa-phone" id="i_fd84_1"></i> +1-3435-2356-222</div>
-                        <div class="kingster-top-bar-right kingster-item-pdlr">
-                            <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
-                                <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li>
-                                <li class="menu-item kingster-normal-menu"><a href="#">Calendar</a></li>
-                                <li class="menu-item kingster-normal-menu"><a href="#">Portal</a></li>
-                            </ul>
-                            <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">Support KU</a></div>
-                    </div>
-                </div>
-            </div>
 
             <?php include 'header.php'; ?>
 
@@ -1071,149 +1056,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gdlr-core-pbf-wrapper " id="div_1dd7_105">
-                        <div class="gdlr-core-pbf-background-wrap">
-                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_106" data-parallax-speed="0"></div>
-                        </div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                                <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js "></div>
-                                    </div>
-                                </div>
-                                <div class="gdlr-core-pbf-column gdlr-core-column-30">
-                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_34">Search For Courses</h3></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-course-search-item gdlr-core-item-pdb gdlr-core-item-pdlr">
-                                                    <form class="gdlr-core-course-form clearfix" action="#" method="GET">
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30 gdlr-core-column-first">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
-                                                                <input type="text" placeholder="Keywords" name="course-keywords" value="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-course-id">
-                                                                <input type="text" placeholder="Course ID" name="course-id" value="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30 gdlr-core-column-first">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-department">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="department">
-                                                                        <option value="">Department</option>
-                                                                        <option value="business-adminstration">Business Adminstration</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-campus">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="campus">
-                                                                        <option value="">Campus</option>
-                                                                        <option value="admans-hall">Adman's Hall</option>
-                                                                        <option value="kingsters-80">Kingster's 80</option>
-                                                                        <option value="ku2-hill">KU2 Hill</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30 gdlr-core-column-first">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-level">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="level">
-                                                                        <option value="">Level</option>
-                                                                        <option value="graduate">Graduate</option>
-                                                                        <option value="undergraduate">Undergraduate</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-instructor">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="instructor">
-                                                                        <option value="">Instructor</option>
-                                                                        <option value="albert-coman-phd">Albert Coman (PhD)</option>
-                                                                        <option value="angelina-jones-phd">Angelina Jones (PhD)</option>
-                                                                        <option value="bruce-willis-phd">Bruce Willis (PhD)</option>
-                                                                        <option value="carol-dawson-phd">Carol Dawson (PhD)</option>
-                                                                        <option value="john-hagensy">John Hagensy (PhD)</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30 gdlr-core-column-first">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-semester">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="semester">
-                                                                        <option value="">Semester</option>
-                                                                        <option value="fall-2018">Fall 2018</option>
-                                                                        <option value="spring-2019">Spring 2019</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class=" gdlr-core-course-column gdlr-core-column-30">
-                                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-credit">
-                                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                                    <select class="gdlr-core-skin-e-content" name="credit">
-                                                                        <option value="">Credit</option>
-                                                                        <option value="2-000">2.000</option>
-                                                                        <option value="3-000">3.000</option>
-                                                                        <option value="4-000">4.000</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align">
-                                                            <input class="gdlr-core-full-size" type="submit" value="Search Courses" />
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gdlr-core-pbf-wrapper " id="div_1dd7_107">
-                        <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_108"></div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" id="div_1dd7_109">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix  gdlr-core-gallery-item-style-grid" id="div_1dd7_110">
-                                        <div class="gdlr-core-gallery-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
-                                            <div class="gdlr-core-item-list gdlr-core-gallery-column  gdlr-core-column-12 gdlr-core-column-first gdlr-core-item-pdlr gdlr-core-item-mgb">
-                                                <div class="gdlr-core-gallery-list gdlr-core-media-image"><img src="upload/banner-1.png" alt="" width="248" height="120" title="banner-1" /></div>
-                                            </div>
-                                            <div class="gdlr-core-item-list gdlr-core-gallery-column  gdlr-core-column-12 gdlr-core-item-pdlr gdlr-core-item-mgb">
-                                                <div class="gdlr-core-gallery-list gdlr-core-media-image"><img src="upload/banner-2.png" alt="" width="248" height="120" title="banner-2" /></div>
-                                            </div>
-                                            <div class="gdlr-core-item-list gdlr-core-gallery-column  gdlr-core-column-12 gdlr-core-item-pdlr gdlr-core-item-mgb">
-                                                <div class="gdlr-core-gallery-list gdlr-core-media-image"><img src="upload/banner-3.png" alt="" width="248" height="120" title="banner-3" /></div>
-                                            </div>
-                                            <div class="gdlr-core-item-list gdlr-core-gallery-column  gdlr-core-column-12 gdlr-core-item-pdlr gdlr-core-item-mgb">
-                                                <div class="gdlr-core-gallery-list gdlr-core-media-image"><img src="upload/banner-4-1.png" alt="" width="248" height="120" title="banner-4" /></div>
-                                            </div>
-                                            <div class="gdlr-core-item-list gdlr-core-gallery-column  gdlr-core-column-12 gdlr-core-item-pdlr gdlr-core-item-mgb">
-                                                <div class="gdlr-core-gallery-list gdlr-core-media-image"><img src="upload/banner-5.png" alt="" width="248" height="120" title="banner-5" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -1224,6 +1066,7 @@
 
 
 	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery-3.4.0.js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
     <script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
@@ -1489,6 +1332,8 @@
 	        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
 	        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
 	    } /*]]>*/
+
+        $('#header-index').addClass('current-menu-item');
 	</script>
 </body>
 </html>

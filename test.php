@@ -1,12 +1,16 @@
 <?php
 
+
+
 require_once('db_connection.php');
-require_once('attorney.php');
+require_once('contact.php');
 
-$foo = new Attorney();
-$foo1 = $foo->getAll();
-print_r('<pre>');
-print_r($foo1);
-
+$oContact = new Contact();
+$oContact->getContactInfo();
+$sPhone = $oContact->phone;
+$sAddress = $oContact->address;
+$sEmail = $oContact->email;
 
 ?>
+
+

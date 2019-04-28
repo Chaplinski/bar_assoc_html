@@ -1,3 +1,9 @@
+<?php
+
+require_once('test.php');
+
+?>
+
 <footer>
                 <div class="kingster-footer-wrapper ">
                     <div class="kingster-footer-container kingster-container clearfix">
@@ -6,12 +12,11 @@
                                 <div class="textwidget">
                                     <p><img src="upload/footer-logo.png" alt="" />
                                         <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 5px ;"></span>
-                                        <br /> Box 35300
-<br /> 1810 Campus Way NE
-<br /> Bothell, WA 98011-8246</p>
-                                    <p><span style="font-size: 15px; color: #ffffff;">+1-2534-4456-345</span>
+                                        <br /> <?php echo $sAddress ?>
+                                        </p>
+                                        <p><a style="font-size: 15px; color: #ffffff;" href="tel:<?php echo $sPhone?>"><?php echo $sPhone ?></a>
                                         <br /> <span class="gdlr-core-space-shortcode" style="margin-top: -20px ;"></span>
-                                        <br /> <a style="font-size: 15px; color: #ffffff;" href="mailto:admin@kingsteruni.edu">admin@kingsteruni.edu</a></p>
+                                        <br /> <a style="font-size: 15px; color: #ffffff;" href="mailto:<?php echo $sEmail?>"><?php echo $sEmail ?></></p>
                                     <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
                                         <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #3db166 ;border-bottom-width: 2px ;"></div>
                                     </div>
@@ -68,15 +73,9 @@
 
 				<div class="kingster-copyright-wrapper">
 					<div class="kingster-copyright-container kingster-container clearfix">
-						<div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, Max Themes</div>
+						<div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, Kankakee Bar Association<br>Scott Chaplinski, Webmaster</div>
 						<div class="kingster-copyright-right kingster-item-pdlr">
 							<div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;">
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
-									<i class="fa fa-facebook" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus">
-									<i class="fa fa-google-plus" ></i>
-								</a>
 								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
 									<i class="fa fa-linkedin" ></i>
 								</a>
@@ -85,9 +84,6 @@
 								</a>
 								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
 									<i class="fa fa-twitter" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
-									<i class="fa fa-instagram" ></i>
 								</a>
 							</div>
 						</div>

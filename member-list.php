@@ -189,51 +189,22 @@ include_once 'all_includes.php';
     <div class="kingster-body-outer-wrapper ">
         <div class="kingster-body-wrapper clearfix  kingster-with-frame">
 
-
-            <div class="kingster-top-bar">
-                <div class="kingster-top-bar-background"></div>
-                <div class="kingster-top-bar-container kingster-container ">
-                    <div class="kingster-top-bar-container-inner clearfix">
-                        <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" style="font-size: 15px ;color: #96a2b8 ;margin-right: 8px ;"></i> contact@KUTheme.edu <i class="fa fa-phone" style="font-size: 15px ;color: #96a2b8 ;margin-left: 18px ;margin-right: 6px ;"></i> +1-3435-2356-222</div>
-                        <div class="kingster-top-bar-right kingster-item-pdlr">
-                            <form>
-                                <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
-                                    <!--
-                                    <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li>
-                                    <li class="menu-item kingster-normal-menu"><a href="#">Calendar</a></li>
-                                    -->
-                                    <li class="menu-item kingster-normal-menu">
-                                        <input id="author" name="author" type="text" value="" placeholder="Search Attorneys Name*" size="30" aria-required="true">
-                                    </li>
-                                </ul>
-                                <div class="kingster-top-bar-right-social"></div><a class="kingster-top-bar-right-button" href="#" target="_blank">Find An Attorney</a>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <?php include 'header.php' ?>
-
 
             <div class="kingster-page-title-wrap  kingster-style-medium kingster-left-align">
                 <div class="kingster-header-transparent-substitute"></div>
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-container kingster-container">
                     <div class="kingster-page-title-content kingster-item-pdlr">
-                        <h1 class="kingster-page-title">Finance Faculty</h1></div>
+                        <h1 class="kingster-page-title">Kankakee Bar<br>Association Attorneys</h1></div>
                 </div>
             </div>
             <div class="kingster-breadcrumbs">
                 <div class="kingster-breadcrumbs-container kingster-container">
-                    <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Kingster." href="index.html" class="home"><span property="name">Home</span></a>
+                    <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Kingster." href="index.php" class="home"><span property="name">Home</span></a>
                         <meta property="position" content="1">
-                        </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Bachelor Of Science in Business Administration." href="index.html" class="post post-page"><span property="name">Bachelor Of Science in Business Administration</span></a>
+                        </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Bachelor Of Science in Business Administration." href="member-list.php" class="post post-page"><span property="name">Attorney List</span></a>
                         <meta property="position" content="2">
-                        </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Finance." href="index.html" class="post post-page"><span property="name">Finance</span></a>
-                        <meta property="position" content="3">
-                        </span>&gt;<span property="itemListElement" typeof="ListItem"><span property="name">Finance Faculty</span>
-                        <meta property="position" content="4">
                         </span>
                     </div>
                 </div>
@@ -300,7 +271,7 @@ include_once 'all_includes.php';
 
                                     <form class="gdlr-core-course-form clearfix" action="member-list.php" method="GET">
 
-                                        <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first">
+                                        <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 12px">
                                             <div class="gdlr-core-course-search-field gdlr-core-course-field-level">
                                                 <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
                                                     <select class="gdlr-core-skin-e-content" name="law_type">
@@ -314,26 +285,13 @@ include_once 'all_includes.php';
                                             </div>
                                         </div>
 
-                                        <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align">
+                                        <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align" style="padding-bottom: 20px">
                                             <input class="gdlr-core-auto-size" type="submit" value="Search for an Attorney" />
                                         </div>
                                     </form>
 
 
 
-
-
-                                    <div id="gdlr-core-custom-menu-widget-6" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                        <h3 class="kingster-widget-title">Finance Major</h3><span class="clear"></span>
-                                        <div class="menu-finance-menu-container">
-                                            <ul id="menu-finance-menu" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-list">
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5818"><a href="#">Course Curriculum</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5822 current_page_item menu-item-5824"><a href="index.html">Finance Faculty</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5820"><a target="_blank" href=#scholarships/index.html">Scholarships</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5821"><a target="_blank" href="#">Application</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
                                     <div id="text-21" class="widget widget_text kingster-widget">
                                         <div class="textwidget">
                                             <div class="gdlr-core-widget-box-shortcode " style="color: #ffffff ;padding: 30px 45px;background-color: #192f59 ;">
@@ -378,6 +336,7 @@ include_once 'all_includes.php';
 
 
 	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery-3.4.0.js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='plugins/goodlayers-core/plugins/combine/script.js'></script>
     <script type='text/javascript'>
@@ -396,6 +355,7 @@ include_once 'all_includes.php';
         var kingster_script_core = {
             "home_url": "index.html"
         };
+        $('#header-attorneys').addClass('current-menu-item');
     </script>
     <script type='text/javascript' src='js/plugins.min.js'></script>
 </body>
