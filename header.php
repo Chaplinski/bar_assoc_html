@@ -19,7 +19,7 @@ require_once('test.php');
         <div class="kingster-header-container-inner clearfix">
             <div class="kingster-logo  kingster-item-pdlr">
                 <div class="kingster-logo-inner">
-                    <a class="" href="index.html"><img src="images/logo.png" alt="" /></a>
+                    <a class="" href="index.html"><img src="https://via.placeholder.com/330x40.png?text=Bar+Association+logo" alt="" /></a>
                 </div>
             </div>
             <div class="kingster-navigation kingster-item-pdlr clearfix ">
@@ -27,15 +27,12 @@ require_once('test.php');
                     <ul id="menu-main-navigation-1" class="sf-menu">
                         <li id="header-index" class="menu-item menu-item-home menu-item-has-children kingster-normal-menu"><a href="index.php" class="sf-with-ul-pre">Home</a>
                         </li>
-                        <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Pages</a>
-                        </li>
                         <li id="header-attorneys" class="menu-item menu-item-has-children kingster-mega-menu"><a href="member-list.php" class="sf-with-ul-pre">Attorney List</a>
+                        </li>
+                        <li id="header-judges" class="menu-item menu-item-has-children kingster-mega-menu"><a href="judges.php" class="sf-with-ul-pre">Judges</a>
                         </li>
                         <li id="header-calendar" class="menu-item menu-item-has-children kingster-normal-menu"><a href="calendar.php" class="sf-with-ul-pre">Calendar</a>
                         </li>
-                        <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Courses</a>
-                        </li>
-                        <li class="menu-item kingster-normal-menu"><a href="athletics.html">Athletics</a></li>
                         <li class="menu-item kingster-normal-menu"></li>
                         <li class="menu-item kingster-normal-menu"></li>
                         <li class="menu-item kingster-normal-menu"></li>
