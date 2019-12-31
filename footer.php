@@ -1,6 +1,12 @@
 <?php
 
-require_once('test.php');
+require_once('all_includes.php');
+
+$oContact = new Contact();
+$oContact->getContactInfo();
+$sPhone = $oContact->phone;
+$sAddress = $oContact->address;
+$sEmail = $oContact->email;
 
 ?>
 
