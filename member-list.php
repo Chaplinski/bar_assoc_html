@@ -70,23 +70,35 @@ include_once 'all_includes.php';
                                         foreach($result as $row) {
                                             echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-personnel-list clearfix">
-                                                        <div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="#"><img src="' . $row['image'] . '" alt="" width="500" height="500" title="personnel-1" /></a>
-                                                        </div>
                                                         <div class="gdlr-core-personnel-list-content-wrap">
                                                             <div class="gdlr-core-personnel-list-social">
                                                                 <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;"><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 18px ;color: #50bd77 ;"><i class="fa fa-facebook" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-linkedin" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-skype" ></i></a><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-twitter" ></i></a></div>
                                                             </div>
-                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >' . $row['first_name'] . ' ' . $row['last_name'] . '</a></h3>
+                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >' . $row['first_name'] . ' ' . $row['middle_name'] . ' ' . $row['last_name'] . '</a></h3>
                                                             <div class="gdlr-core-personnel-list-position gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;letter-spacing: 0px ;">'. $row['title']. '</div>
-                                                            <div class="gdlr-core-personnel-info">
-                                                                <div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i>'. $row['email']. '</div>
-                                                                <div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i>'. $row['phone']. '</div>
-                                                            </div>
-                                                            <div class="gdlr-core-personnel-list-content">
-                                                                <p>&#8211; PhD, Accounting, Finance minor, Texas A&#038;M University
+                                                            <div class="gdlr-core-personnel-info">';
+
+                                            if(!empty($row['email'])) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i>' . $row['email'] . '</div>';
+                                            }
+                                            if(!empty($row['phone'])) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i>' . $row['phone'] . '</div>';
+                                            }
+                                            if(!empty($row['fax'])) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $row['fax'] . '</div>';
+                                            }
+                                                            echo '</div>';
+
+                                                            if(!empty($row['street_address1'])) {
+
+                                                                echo '<div class="gdlr-core-personnel-list-content">
+                                                                <p>' . $row['street_address1'] . '
                                                                     <br /> &#8211; BA, Business Administration, University of Washington</p>
-                                                            </div><a class="gdlr-core-personnel-list-button gdlr-core-button" href="#">More Detail</a></div>
+                                                            </div>';
+
+                                                            }
+
+                                                            echo '</div>
                                                     </div>
                                                 </div>';
                                         }

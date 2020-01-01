@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/master.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/all_includes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attorney.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/attorney.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/db_connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judges.php" beforeDir="false" afterPath="$PROJECT_DIR$/judges.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/attorney.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" afterPath="$PROJECT_DIR$/master.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/member-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member-list.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="member-list.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/member-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="476">
+              <caret line="87" column="188" selection-start-line="87" selection-start-column="188" selection-end-line="87" selection-end-column="188" />
             </state>
           </provider>
         </entry>
@@ -92,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="attorney.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/attorney.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="153" selection-start-line="6" selection-start-column="153" selection-end-line="6" selection-end-column="153" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/master.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+            <state relative-caret-position="145">
+              <caret line="71" column="97" lean-forward="true" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -105,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;header</find>
       <find>depart</find>
       <find>&lt;form</find>
       <find>bachelor</find>
@@ -132,9 +130,10 @@
       <find>header-jud</find>
       <find>judges</find>
       <find>current-menu-item</find>
-      <find>&lt;div class=&quot;kingster-mobile-menu&quot;</find>
       <find>iframe src</find>
       <find>$</find>
+      <find>suite 200</find>
+      <find>&lt;div class=&quot;kingster-mobile-menu&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,13 +152,14 @@
         <option value="$PROJECT_DIR$/all_includes.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/member-list.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/judges.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/classes/db_connection.php" />
         <option value="$PROJECT_DIR$/calendar.php" />
         <option value="$PROJECT_DIR$/master.sql" />
+        <option value="$PROJECT_DIR$/classes/attorney.php" />
+        <option value="$PROJECT_DIR$/member-list.php" />
       </list>
     </option>
   </component>
@@ -176,10 +176,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3486" />
-    <option name="y" value="382" />
-    <option name="width" value="968" />
-    <option name="height" value="370" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2762" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -260,15 +260,15 @@
       <workItem from="1557890908364" duration="785000" />
       <workItem from="1559964315716" duration="648000" />
       <workItem from="1561262497392" duration="87000" />
-      <workItem from="1577747309780" duration="15843000" />
+      <workItem from="1577747309780" duration="21360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43664000" />
+    <option name="totallyTimeSpent" value="49181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2728" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,7 +278,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17989418" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -559,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="97" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/attorney/personnel-1-500x500.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -594,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -654,8 +640,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/master.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        <state relative-caret-position="145">
+          <caret line="71" column="97" lean-forward="true" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="153" selection-start-line="6" selection-start-column="153" selection-end-line="6" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="87" column="188" selection-start-line="87" selection-start-column="188" selection-end-line="87" selection-end-column="188" />
         </state>
       </provider>
     </entry>
