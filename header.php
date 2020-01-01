@@ -39,12 +39,7 @@
     <div class="kingster-body-wrapper clearfix  kingster-with-frame">
 <div class="kingster-top-bar">
     <div class="kingster-top-bar-background"></div>
-    <div class="kingster-top-bar-container kingster-container ">
-        <div class="kingster-top-bar-container-inner clearfix">
-            <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" style="font-size: 15px ;color: #96a2b8 ;margin-right: 8px ;"></i> <a href="mailto:<?php echo $sEmail?>"><?php echo $sEmail ?></a> <i class="fa fa-phone" style="font-size: 15px ;color: #96a2b8 ;margin-left: 18px ;margin-right: 6px ;"></i> <a href="tel:<?php echo $sPhone?>"><?php echo $sPhone ?></a></div>
 
-        </div>
-    </div>
 </div>
 <header class="kingster-header-wrap kingster-header-style-plain  kingster-style-menu-right kingster-sticky-navigation kingster-style-fixed" data-navigation-offset="75px">
     <div class="kingster-header-background"></div>
@@ -73,22 +68,7 @@
                     </ul>
                     <div class="kingster-navigation-slide-bar" id="kingster-navigation-slide-bar"></div>
                 </div>
-                <div class="kingster-main-menu-right-wrap clearfix ">
-                    <div class="kingster-main-menu-search" id="kingster-top-search"><i class="icon_search"></i></div>
-                    <div class="kingster-top-search-wrap">
-                        <div class="kingster-top-search-close"></div>
-                        <div class="kingster-top-search-row">
-                            <div class="kingster-top-search-cell">
-                                <form role="search" method="get" class="search-form" action="#">
-                                    <input type="text" class="search-field kingster-title-font" placeholder="Search..." value="" name="s">
-                                    <div class="kingster-top-search-submit"><i class="fa fa-search"></i></div>
-                                    <input type="submit" class="search-submit" value="Search">
-                                    <div class="kingster-top-search-close"><i class="icon_close"></i></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

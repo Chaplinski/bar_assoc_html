@@ -72,9 +72,27 @@ include_once 'all_includes.php';
                                                     <div class="gdlr-core-personnel-list clearfix">
                                                         <div class="gdlr-core-personnel-list-content-wrap">
                                                             <div class="gdlr-core-personnel-list-social">
-                                                                <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;"><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 18px ;color: #50bd77 ;"><i class="fa fa-facebook" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-linkedin" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-skype" ></i></a><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-twitter" ></i></a></div>
+                                                                <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;">
+                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 18px ;color: #50bd77 ;">
+                                                                        <i class="fa fa-facebook" ></i>
+                                                                    </a>
+                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
+                                                                        <i class="fa fa-linkedin" ></i>
+                                                                    </a>
+                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
+                                                                        <i class="fa fa-skype" ></i>
+                                                                    </a>
+                                                                    <a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
+                                                                        <i class="fa fa-twitter" ></i>
+                                                                    </a>
+                                                                </div>
                                                             </div>
-                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >' . $row['first_name'] . ' ' . $row['middle_name'] . ' ' . $row['last_name'] . '</a></h3>
+                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">
+                                                                <a href="#" >' . $row['first_name'] . ' ' . $row['middle_name'] . ' ' . $row['last_name'] . '</a>
+                                                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
+                                                                    <i class="fa fa-linkedin" ></i>
+                                                                </a>
+                                                            </h3>
                                                             <div class="gdlr-core-personnel-list-position gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;letter-spacing: 0px ;">'. $row['title']. '</div>
                                                             <div class="gdlr-core-personnel-info">';
 
@@ -92,8 +110,14 @@ include_once 'all_includes.php';
                                                             if(!empty($row['street_address1'])) {
 
                                                                 echo '<div class="gdlr-core-personnel-list-content">
-                                                                <p>' . $row['street_address1'] . '
-                                                                    <br /> &#8211; BA, Business Administration, University of Washington</p>
+                                                                <p>' . $row['street_address1'];
+                                                                if(!empty($row['street_address2'])) {
+                                                                    echo '<br />' . $row['street_address2'];
+                                                                }
+                                                                if(!empty($row['street_address3'])) {
+                                                                    echo '<br />' . $row['street_address3'];
+                                                                }
+                                                                echo '</p>
                                                             </div>';
 
                                                             }

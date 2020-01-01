@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/attorney.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" afterPath="$PROJECT_DIR$/master.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/member-list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,20 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member-list.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="member-list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="87" column="188" selection-start-line="87" selection-start-column="188" selection-end-line="87" selection-end-column="188" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+            <state relative-caret-position="225">
+              <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +77,15 @@
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -104,9 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>depart</find>
-      <find>&lt;form</find>
-      <find>bachelor</find>
       <find>Finance Fac</find>
       <find>copyri</find>
       <find>&lt;script type='text/javascript' src='js/jquery-3.4.0.js'&gt;&lt;/script&gt;3436</find>
@@ -133,6 +138,9 @@
       <find>iframe src</find>
       <find>$</find>
       <find>suite 200</find>
+      <find>fa fa-phone</find>
+      <find>facebook</find>
+      <find>kingster-main-menu-right-wrap clearfix</find>
       <find>&lt;div class=&quot;kingster-mobile-menu&quot;</find>
     </findStrings>
   </component>
@@ -151,7 +159,6 @@
         <option value="$PROJECT_DIR$/attorney.php" />
         <option value="$PROJECT_DIR$/all_includes.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/judges.php" />
         <option value="$PROJECT_DIR$/test.php" />
@@ -160,6 +167,7 @@
         <option value="$PROJECT_DIR$/master.sql" />
         <option value="$PROJECT_DIR$/classes/attorney.php" />
         <option value="$PROJECT_DIR$/member-list.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -260,12 +268,12 @@
       <workItem from="1557890908364" duration="785000" />
       <workItem from="1559964315716" duration="648000" />
       <workItem from="1561262497392" duration="87000" />
-      <workItem from="1577747309780" duration="21360000" />
+      <workItem from="1577747309780" duration="22740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49181000" />
+    <option name="totallyTimeSpent" value="50561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -583,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -654,8 +655,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/member-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="87" column="188" selection-start-line="87" selection-start-column="188" selection-end-line="87" selection-end-column="188" />
+        <state relative-caret-position="225">
+          <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
         </state>
       </provider>
     </entry>
