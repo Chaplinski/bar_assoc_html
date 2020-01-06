@@ -1,5 +1,12 @@
 <?php
 
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $location);
+    exit;
+}
+
 include_once 'all_includes.php';
 
 ?>
@@ -37,7 +44,7 @@ include_once 'all_includes.php';
                 <div class="kingster-breadcrumbs-container kingster-container">
                     <div class="kingster-breadcrumbs-item kingster-item-pdlr"> <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Kingster." href="index.php" class="home"><span property="name">Home</span></a>
                         <meta property="position" content="1">
-                        </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Bachelor Of Science in Business Administration." href="member-list.php" class="post post-page"><span property="name">Attorney List</span></a>
+                        </span>&gt;<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Bachelor Of Science in Business Administration." href="member-list.php" class="post post-page"><span property="name">Judges</span></a>
                         <meta property="position" content="2">
                         </span>
                     </div>
@@ -102,30 +109,6 @@ include_once 'all_includes.php';
 
 
                                 <div class="gdlr-core-sidebar-item gdlr-core-item-pdlr">
-
-                                    <form class="gdlr-core-course-form clearfix" action="member-list.php" method="GET">
-
-                                        <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 12px">
-                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-level">
-                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                    <select class="gdlr-core-skin-e-content" name="law_type">
-                                                        <option value="" disabled selected>(Search Attorneys By Type of Law Practiced)</option>
-                                                        <option value="b_divorce">Divorce</option>
-                                                        <option value="b_business">Business</option>
-                                                        <option value="b_title">Title and Trust</option>
-
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align" style="padding-bottom: 20px">
-                                            <input class="gdlr-core-auto-size" type="submit" value="Search for an Attorney" />
-                                        </div>
-                                    </form>
-
-
-
                                     <div id="text-21" class="widget widget_text kingster-widget">
                                         <div class="textwidget">
                                             <div class="gdlr-core-widget-box-shortcode " style="color: #ffffff ;padding: 30px 45px;background-color: #192f59 ;">
@@ -133,21 +116,13 @@ include_once 'all_includes.php';
                                                     </p>
                                                     <h3 style="font-size: 20px; color: #fff; margin-bottom: 25px;">Kankakee County Courthouse</h3>
                                                     <p><span style="font-size: 15px;"><br />450 E Court Street<br />Kankakee, IL 60901</span></p>
-                                                    <p><span style="font-size: 15px;">Telephone: 815-937-2915<br />Fax: 815-937-3903<br /> </span></p>
-                                                    <p><span style="font-size: 16px; color: #3db166;">Mon &#8211; Fri 9:00A.M. &#8211; 5:00P.M.</span></p> <span class="gdlr-core-space-shortcode" style="margin-top: 40px ;"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="text-22" class="widget widget_text kingster-widget">
-                                        <div class="textwidget">
-                                            <div class="gdlr-core-widget-box-shortcode  gdlr-core-center-align" style="padding: 55px 0 35px;border: 5px solid #3db166 ;">
-                                                <div class="gdlr-core-widget-box-shortcode-content">
-                                                    <p> <span style="font-size: 17px; font-weight: 600; color: #9ba7bf; text-transform: uppercase;">Join Special Event</span>
-                                                        <br /> <span style="font-size: 20px; font-weight: bold; color: #192f59; text-transform: uppercase;">Accounting Open House</span>
-                                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 18px ;"></span><span style="font-size: 15px;">Get real experience in our campus<br /> start in 16 August 2020</span>
-                                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 5px ;"></span>
-                                                        <br /> <a class="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-gradient gdlr-core-button-no-border" href="#" style="padding: 16px 27px 18px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Click to see more</span></a></p>
+                                                    <p>
+                                                        <span style="font-size: 15px;">Telephone: <a href="tel:815-937-2915" style="color: #FFFFFF">815-937-2915</a><br />
+                                                            Fax: 815-937-3903<br />
+                                                            <a href="http://www.co.kankakee.il.us/21stJudicial/index.html">Click here for the courthouse website</a><br />
+                                                        </span>
+                                                    </p>
+                                                    <p><span style="font-size: 16px; color: #3db166;">Mon &#8211; Fri 8:30A.M. &#8211; 4:30P.M.</span></p> <span class="gdlr-core-space-shortcode" style="margin-top: 40px ;"></span>
                                                 </div>
                                             </div>
                                         </div>

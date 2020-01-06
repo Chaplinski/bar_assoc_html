@@ -1,5 +1,12 @@
 <?php
 
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $location);
+    exit;
+}
+
 include_once 'all_includes.php';
 
 ?>
@@ -71,36 +78,25 @@ include_once 'all_includes.php';
                                             echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-personnel-list clearfix">
                                                         <div class="gdlr-core-personnel-list-content-wrap">
-                                                            <div class="gdlr-core-personnel-list-social">
-                                                                <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;">
-                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 18px ;color: #50bd77 ;">
-                                                                        <i class="fa fa-facebook" ></i>
-                                                                    </a>
-                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
-                                                                        <i class="fa fa-linkedin" ></i>
-                                                                    </a>
-                                                                    <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
-                                                                        <i class="fa fa-skype" ></i>
-                                                                    </a>
-                                                                    <a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
-                                                                        <i class="fa fa-twitter" ></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
+                                                           
                                                             <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">
                                                                 <a href="#" >' . $row['first_name'] . ' ' . $row['middle_name'] . ' ' . $row['last_name'] . '</a>
-                                                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;">
-                                                                    <i class="fa fa-linkedin" ></i>
-                                                                </a>
-                                                            </h3>
-                                                            <div class="gdlr-core-personnel-list-position gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;letter-spacing: 0px ;">'. $row['title']. '</div>
-                                                            <div class="gdlr-core-personnel-info">';
+                                                                
+                                                            </h3>';
+
+                                            if(!empty($row['linked_in'])) {
+                                                echo '<a href="' . $row['linked_in'] . '" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;">
+                                                          <img src="images/output-onlinepngtools.png">
+                                                      </a>';
+                                            }
+
+                                            echo '<div class="gdlr-core-personnel-info">';
 
                                             if(!empty($row['email'])) {
-                                                echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i>' . $row['email'] . '</div>';
+                                                echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i><a href="mailto:' . $row['email'] . '">' . $row['email'] . '</a></div>';
                                             }
                                             if(!empty($row['phone'])) {
-                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i>' . $row['phone'] . '</div>';
+                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i><a href="tel:' . $row['phone'] . '">' . $row['phone'] . '</a></div>';
                                             }
                                             if(!empty($row['fax'])) {
                                                 echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $row['fax'] . '</div>';
@@ -139,55 +135,21 @@ include_once 'all_includes.php';
 
                                 <div class="gdlr-core-sidebar-item gdlr-core-item-pdlr">
 
-                                    <form class="gdlr-core-course-form clearfix" action="member-list.php" method="GET">
-
-                                        <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 12px">
-                                            <div class="gdlr-core-course-search-field gdlr-core-course-field-level">
-                                                <div class="gdlr-core-course-form-combobox gdlr-core-skin-e-background">
-                                                    <select class="gdlr-core-skin-e-content" name="law_type">
-                                                        <option value="" disabled selected>(Search Attorneys By Type of Law Practiced)</option>
-                                                        <option value="b_divorce">Divorce</option>
-                                                        <option value="b_business">Business</option>
-                                                        <option value="b_title">Title and Trust</option>
-
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="gdlr-core-course-form-submit gdlr-core-course-column gdlr-core-column-first gdlr-core-center-align" style="padding-bottom: 20px">
-                                            <input class="gdlr-core-auto-size" type="submit" value="Search for an Attorney" />
-                                        </div>
-                                    </form>
-
-
 
                                     <div id="text-21" class="widget widget_text kingster-widget">
                                         <div class="textwidget">
                                             <div class="gdlr-core-widget-box-shortcode " style="color: #ffffff ;padding: 30px 45px;background-color: #192f59 ;">
                                                 <div class="gdlr-core-widget-box-shortcode-content">
                                                     </p>
-                                                    <h3 style="font-size: 20px; color: #fff; margin-bottom: 25px;">Department Contact Info</h3>
-                                                    <p><span style="color: #3db166; font-size: 16px; font-weight: 600;">Bachelor Of Science in Business Administration</span>
-                                                        <br /> <span style="font-size: 15px;"><br /> 1810 Campus Way NE<br /> Bothell, WA 98011-8246</span></p>
-                                                    <p><span style="font-size: 15px;">+1-2345-5432-45<br /> bsba@kuuniver.edu<br /> </span></p>
-                                                    <p><span style="font-size: 16px; color: #3db166;">Mon &#8211; Fri 9:00A.M. &#8211; 5:00P.M.</span></p> <span class="gdlr-core-space-shortcode" style="margin-top: 40px ;"></span>
-                                                    <h3 style="font-size: 20px; color: #fff; margin-bottom: 15px;">Social Info</h3>
-                                                    <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;"><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="color: #3db166 ;"><i class="fa fa-facebook" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus" style="color: #3db166 ;"><i class="fa fa-google-plus" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="color: #3db166 ;"><i class="fa fa-linkedin" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="color: #3db166 ;"><i class="fa fa-skype" ></i></a><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="color: #3db166 ;"><i class="fa fa-twitter" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram" style="color: #3db166 ;"><i class="fa fa-instagram" ></i></a></div> <span class="gdlr-core-space-shortcode" style="margin-top: 40px ;"></span> <a class="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-gradient gdlr-core-button-no-border" href="#" style="padding: 16px 27px 18px;margin-right: 20px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Student Resources</span></a>
+                                                    <h3 style="font-size: 20px; color: #fff; margin-bottom: 25px;">Kankakee County Courthouse</h3>
+                                                    <p><span style="font-size: 15px;"><br />450 E Court Street<br />Kankakee, IL 60901</span></p>
                                                     <p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="text-22" class="widget widget_text kingster-widget">
-                                        <div class="textwidget">
-                                            <div class="gdlr-core-widget-box-shortcode  gdlr-core-center-align" style="padding: 55px 0 35px;border: 5px solid #3db166 ;">
-                                                <div class="gdlr-core-widget-box-shortcode-content">
-                                                    <p> <span style="font-size: 17px; font-weight: 600; color: #9ba7bf; text-transform: uppercase;">Join Special Event</span>
-                                                        <br /> <span style="font-size: 20px; font-weight: bold; color: #192f59; text-transform: uppercase;">Accounting Open House</span>
-                                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 18px ;"></span><span style="font-size: 15px;">Get real experience in our campus<br /> start in 16 August 2020</span>
-                                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 5px ;"></span>
-                                                        <br /> <a class="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-gradient gdlr-core-button-no-border" href="#" style="padding: 16px 27px 18px;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;"><span class="gdlr-core-content" >Click to see more</span></a></p>
+                                                        <span style="font-size: 15px;">Telephone: <a href="tel:815-937-2915" style="color: #FFFFFF">815-937-2915</a><br />
+                                                            Fax: 815-937-3903<br />
+                                                            <a href="http://www.co.kankakee.il.us/21stJudicial/index.html">Click here for the courthouse website</a><br />
+                                                        </span>
+                                                    </p>
+                                                    <p><span style="font-size: 16px; color: #3db166;">Mon &#8211; Fri 8:30A.M. &#8211; 4:30P.M.</span></p> <span class="gdlr-core-space-shortcode" style="margin-top: 40px ;"></span>
                                                 </div>
                                             </div>
                                         </div>
