@@ -8,7 +8,7 @@ CREATE TABLE contact (
   PRIMARY KEY (id)
 );
 
-INSERT INTO contact ( phone, address, email) VALUES ( '815-555-5555', '123 Fake Street', 'test@email.com' );
+INSERT INTO contact ( phone, address, email) VALUES ( '', '', 'K3BarAssociation@gmail.com' );
 
 
 CREATE TABLE attorneys (

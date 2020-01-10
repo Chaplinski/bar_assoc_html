@@ -47,7 +47,7 @@
         <div class="kingster-header-container-inner clearfix">
             <div class="kingster-logo  kingster-item-pdlr">
                 <div class="kingster-logo-inner">
-                    <a class="" href="index.php"><img src="https://via.placeholder.com/330x40.png?text=Bar+Association+logo" alt="" /></a>
+                    <h6>Kankakee County Bar Association</h6>
                 </div>
             </div>
             <div class="kingster-navigation kingster-item-pdlr clearfix ">

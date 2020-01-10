@@ -16,16 +16,11 @@ $sEmail = $oContact->email;
                         <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                             <div id="text-2" class="widget widget_text kingster-widget">
                                 <div class="textwidget">
-                                    <p><img src="upload/footer-logo.png" alt="" />
-                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 5px ;"></span>
-                                        <br /> <?php echo $sAddress ?>
-                                        </p>
-                                        <p><a style="font-size: 15px; color: #ffffff;" href="tel:<?php echo $sPhone?>"><?php echo $sPhone ?></a>
+                                    <h3 class="kingster-widget-title">Kankakee County<br/>Bar Association</h3>
+                                        <p>
                                         <br /> <span class="gdlr-core-space-shortcode" style="margin-top: -20px ;"></span>
-                                        <br /> <a style="font-size: 15px; color: #ffffff;" href="mailto:<?php echo $sEmail?>"><?php echo $sEmail ?></></p>
-                                    <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
-                                        <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #3db166 ;border-bottom-width: 2px ;"></div>
-                                    </div>
+                                        <br /> <a style="font-size: 15px; color: #ffffff;" href="mailto:<?php echo $sEmail?>"><?php echo $sEmail ?></a></p>
+
                                 </div>
                             </div>
                         </div>
@@ -63,19 +58,6 @@ $sEmail = $oContact->email;
 				<div class="kingster-copyright-wrapper">
 					<div class="kingster-copyright-container kingster-container clearfix">
 						<div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, Kankakee Bar Association<br>Scott Chaplinski, Webmaster</div>
-						<div class="kingster-copyright-right kingster-item-pdlr">
-							<div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;">
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
-									<i class="fa fa-linkedin" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype">
-									<i class="fa fa-skype" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
-									<i class="fa fa-twitter" ></i>
-								</a>
-							</div>
-						</div>
 					</div>
 				</div>
             </footer>

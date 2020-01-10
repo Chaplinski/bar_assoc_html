@@ -5,6 +5,9 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
     header('Location: ' . $location);
     exit;
 }
+
+include_once 'all_includes.php';
+
 //  ?>
 
 <!DOCTYPE html>
@@ -55,14 +58,17 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                                        <p>We are one of the largest, most diverse universities in the USA with over 90,000 students in USA, and a further 30,000 studying across 180 countries for Kingster University.</p>
+                                                        <p>Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held. Now, our home is kankakeecountybarassociation.org. The KCBA is a legacy system wherein the officers are determined by seniority.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_28">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_29">
-                                                        <p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized globally. Throughout our great history, Kingster has offered access to a wide range of academic opportunities. As a world leader in higher education, the University has pioneered change in the sector.</p>
+                                                        <p>The mission of the KCBA is<br/>
+                                                            » to foster good bench/bar relations in order to improve our local court system<br/>
+                                                            » to promote and provide ethical and competent attorneys to serve our community<br/>
+                                                            » and to encourage professional friendships and mentors to offer guidance and support to the membership</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -99,7 +105,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-66469">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="#" target="_self" >Alumni & Donors</a></h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="http://www.co.kankakee.il.us/21stJudicial/index.html" target="_self" >Kankakee County Courthouse</a></h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
@@ -110,7 +116,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-42777">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="#" target="_self" >Athletic Calendar</a></h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="https://eaccess.k3county.net/eservices/home.page.2" target="_self" >Kankakee County Online Court Case Search</a></h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
@@ -121,7 +127,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-51281">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="#" target="_self" >All Kingster’s Events</a></h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="https://www.judici.com/" target="_self" >Iroquois County Online Court Case Search</a></h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
@@ -132,29 +138,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-78243">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="#" target="_self" >Partnership & Out Reach</a></h3></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_58">
-                                                     <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_59"></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-14842">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_20"><a href="#" target="_self" >Academic Programs</a></h3></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_60">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_61"></div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-33183">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_21"><a href="#" target="_self" >Tution And Fees</a></h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="https://pslegal.org/ " target="_self" >Prairie State Legal Service</a></h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
@@ -177,87 +161,45 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                                             <div class="gdlr-core-block-item-title-divider" id="div_1dd7_96"></div>
                                                         </div>
                                                     </div>
-                                                    <div class="gdlr-core-event-item-holder clearfix">
-                                                        <div class="gdlr-core-event-item-list gdlr-core-style-widget gdlr-core-item-pdlr  clearfix" id="div_1dd7_97">
-                                                            <span class="gdlr-core-event-item-info gdlr-core-type-start-date-month">
-                                                                <span class="gdlr-core-date" >07</span>
-                                                                <span class="gdlr-core-month">Jan</span>
-                                                            </span>
-                                                            <div class="gdlr-core-event-item-content-wrap">
-                                                                <h3 class="gdlr-core-event-item-title">
-                                                                    <a href="#" >Reunion Event : Kingster’s Alumni Golf Tour</a>
-                                                                </h3>
-                                                                <div class="gdlr-core-event-item-info-wrap">
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-time">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_clock_alt" ></i>
+
+                                                    <?php
+
+                                                    $oCalendar = new BarCalendar();
+                                                    $aUpcomingEvents = $oCalendar->getUpcomingEvents();
+
+                                                    foreach ($aUpcomingEvents as $oEvent) {
+
+                                                        echo '<div class="gdlr-core-event-item-holder clearfix">
+                                                            <div class="gdlr-core-event-item-list gdlr-core-style-widget gdlr-core-item-pdlr  clearfix" id="div_1dd7_97">
+                                                                <span class="gdlr-core-event-item-info gdlr-core-type-start-date-month">
+                                                                    <span class="gdlr-core-date" >' . $oEvent->sDay . '</span>
+                                                                    <span class="gdlr-core-month">' . $oEvent->sMonth . '</span>
+                                                                </span>
+                                                                <div class="gdlr-core-event-item-content-wrap">
+                                                                    <h3 class="gdlr-core-event-item-title">
+                                                                        <a href="#" >' . $oEvent->sTitle . '</a>
+                                                                    </h3>
+                                                                    <div class="gdlr-core-event-item-info-wrap">
+                                                                        <span class="gdlr-core-event-item-info gdlr-core-type-time">
+                                                                            <span class="gdlr-core-head" >
+                                                                                <i class="icon_clock_alt" ></i>
+                                                                            </span>
+                                                                            <span class="gdlr-core-tail">' . $oEvent->sStartTime . '</span>
                                                                         </span>
-                                                                        <span class="gdlr-core-tail">7:00 am - 11:30 pm</span>
-                                                                    </span>
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-location">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_pin_alt" ></i>
-                                                                        </span>
-                                                                        <span class="gdlr-core-tail">Kingster Grand Hall</span>
-                                                                    </span>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="gdlr-core-event-item-list gdlr-core-style-widget gdlr-core-item-pdlr  clearfix" id="div_1dd7_98">
-                                                            <span class="gdlr-core-event-item-info gdlr-core-type-start-date-month">
-                                                                <span class="gdlr-core-date" >01</span>
-                                                                <span class="gdlr-core-month">Jan</span>
-                                                            </span>
-                                                            <div class="gdlr-core-event-item-content-wrap">
-                                                                <h3 class="gdlr-core-event-item-title">
-                                                                    <a href="#" >Kingster’s Alumni Hot Air Ballon Trip in Turkey</a>
-                                                                </h3>
-                                                                <div class="gdlr-core-event-item-info-wrap">
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-time">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_clock_alt" ></i>
-                                                                        </span>
-                                                                        <span class="gdlr-core-tail">10:00 am - 4:30 pm</span>
-                                                                    </span>
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-location">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_pin_alt" ></i>
-                                                                        </span>
-                                                                        <span class="gdlr-core-tail">Kingster Grand Hall</span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="gdlr-core-event-item-list gdlr-core-style-widget gdlr-core-item-pdlr  clearfix" id="div_1dd7_99">
-                                                            <span class="gdlr-core-event-item-info gdlr-core-type-start-date-month">
-                                                                <span class="gdlr-core-date" >17</span>
-                                                                <span class="gdlr-core-month">Dec</span>
-                                                            </span>
-                                                            <div class="gdlr-core-event-item-content-wrap">
-                                                                <h3 class="gdlr-core-event-item-title">
-                                                                    <a href="#" >Fintech &#038; Key Investment Conference</a>
-                                                                </h3>
-                                                                <div class="gdlr-core-event-item-info-wrap">
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-time">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_clock_alt" ></i>
-                                                                        </span>
-                                                                        <span class="gdlr-core-tail">1:00 pm - 5:00 pm</span>
-                                                                    </span>
-                                                                    <span class="gdlr-core-event-item-info gdlr-core-type-location">
-                                                                        <span class="gdlr-core-head" >
-                                                                            <i class="icon_pin_alt" ></i>
-                                                                        </span>
-                                                                        <span class="gdlr-core-tail">Kingster Grand Hall</span>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                        </div>';
+
+                                                    }
+                                                    ?>
+
+
+
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="#" id="a_1dd7_7"><span class="gdlr-core-content" >View All Events</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_2"  ></i></a></div>
+                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="https://chaplinski.xyz/calendar.php" id="a_1dd7_7"><span class="gdlr-core-content" >View All Events</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_2"  ></i></a></div>
                                             </div>
                                         </div>
                                     </div>
