@@ -61,43 +61,62 @@ include_once 'all_includes.php';
 
 
 
-                                        <?php
+                                            <?php
 
 
-                                        $aAttorneys = new Attorney();
-
-                                        if(isset($_GET['law_type'])) {
-                                            $lawType = $_GET['law_type'];
-                                            $result = $aAttorneys->getByType($lawType);
-                                        } else {
-                                            $result = $aAttorneys->getAll();
-                                        }
+                                            $oJ = new Judge();
+                                            $aJ = $oJ->getAll();
 
 
-                                        foreach($result as $row) {
-                                            echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
+                                            foreach($aJ as $oJ) {
+                                                echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-personnel-list clearfix">
-                                                        <div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover">
-                                                            <a href="#"><img src="images/attorney/' . $row['image'] . '" alt="" width="500" height="500" title="personnel-1" /></a>
-                                                        </div>
                                                         <div class="gdlr-core-personnel-list-content-wrap">
-                                                            <div class="gdlr-core-personnel-list-social">
-                                                                <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;"><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 18px ;color: #50bd77 ;"><i class="fa fa-facebook" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-linkedin" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-skype" ></i></a><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 18px ;color: #50bd77 ;margin-left: 14px ;"><i class="fa fa-twitter" ></i></a></div>
-                                                            </div>
-                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >' . $row['first_name'] . ' ' . $row['last_name'] . '</a></h3>
-                                                            <div class="gdlr-core-personnel-list-position gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;letter-spacing: 0px ;">'. $row['title']. '</div>
-                                                            <div class="gdlr-core-personnel-info">
-                                                                <div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i>'. $row['email']. '</div>
-                                                                <div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i>'. $row['phone']. '</div>
-                                                            </div>
-                                                            <div class="gdlr-core-personnel-list-content">
-                                                                <p>&#8211; PhD, Accounting, Finance minor, Texas A&#038;M University
-                                                                    <br /> &#8211; BA, Business Administration, University of Washington</p>
-                                                            </div><a class="gdlr-core-personnel-list-button gdlr-core-button" href="#">More Detail</a></div>
+                                                           
+                                                            <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">
+                                                                <a href="http://www.co.kankakee.il.us/21stJudicial/Judges.html" >' . $oJ->sFirst . ' ' . $oJ->sMiddle . ' ' . $oJ->sLast . '</a>
+                                                                
+                                                            </h3>';
+
+                                                if(!empty($oJ->sLinkedin)) {
+                                                    echo '<a href="' . $oJ->sLinkedin . '" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;">
+                                                          <img src="images/output-onlinepngtools.png">
+                                                      </a>';
+                                                }
+
+                                                echo '<div class="gdlr-core-personnel-info">';
+
+                                                if(!empty($oJ->sEmail)) {
+                                                    echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i><a href="mailto:' . $oJ->sEmail . '">' . $oJ->sEmail . '</a></div>';
+                                                }
+                                                if(!empty($oJ->sPhone)) {
+                                                    echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i><a href="tel:' . $oJ->sPhone . '">' . $oJ->sPhone . '</a></div>';
+                                                }
+                                                if(!empty($oJ->sFax)) {
+                                                    echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $oJ->sFax . '</div>';
+                                                }
+                                                echo '</div>';
+
+                                                if(!empty($oJ->sTitle)) {
+
+                                                    echo '<div class="gdlr-core-personnel-list-content">
+                                                                <p>' . $oJ->sTitle;
+                                                    if(!empty($oJ->sStreet2)) {
+                                                        echo '<br />' . $oJ->sStreet2;
+                                                    }
+                                                    if(!empty($oJ->sStreet3)) {
+                                                        echo '<br />' . $oJ->sStreet3;
+                                                    }
+                                                    echo '</p>
+                                                            </div>';
+
+                                                }
+
+                                                echo '</div>
                                                     </div>
                                                 </div>';
-                                        }
-                                        ?>
+                                            }
+                                            ?>
 
 
 

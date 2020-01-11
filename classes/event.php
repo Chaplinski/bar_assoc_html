@@ -10,19 +10,38 @@ class Event
 
     public function generateEvent($sEventInfo){
 
-//todo fix start time in the UI
         $aEventInfo = explode("(", $sEventInfo);
         $sIncomingTitle = $aEventInfo[0];
         $sIncomingDate = $aEventInfo[1];
 
         $this->sTitle = rtrim($sIncomingTitle, " ");
-        $this->sStartTime = substr($sIncomingDate, 11, 2);
+        $sStartTime = substr($sIncomingDate, 11, 5);
+        $this->sStartTime = $this->getTime($sStartTime);
         $sIncomingDate = substr($sIncomingDate, 0, 10);
         $this->sDay = substr($sIncomingDate, 8, 2);
         $iMonth = substr($sIncomingDate, 5, 2);
         $this->sMonth = $this->getMonth($iMonth);
 
         return $this;
+
+    }
+
+    public function getTime($sStartTime){
+        $iHour = intval(substr($sStartTime, 0, 2));
+        $ampm = "AM";
+
+        if($iHour > 11){
+            $ampm = "PM";
+            $iHour = $iHour - 12;
+            if($iHour == 0){
+                $iHour = 12;
+            }
+        }
+
+        $sMinute = substr($sStartTime, 3, 2);
+        $sTime = $iHour . ":" . $sMinute . $ampm;
+
+        return $sTime;
 
     }
 

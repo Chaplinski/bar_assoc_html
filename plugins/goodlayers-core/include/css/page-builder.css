@@ -1997,7 +1997,7 @@ ul.gdlr-core-twitter-content-list li:last-child{ margin-bottom: 0px; }
 .gdlr-core-newsletter-item.gdlr-core-style-curve .gdlr-core-newsletter-email{ float: left; width: 70%; padding-right: 10px; }
 .gdlr-core-newsletter-item.gdlr-core-style-curve .gdlr-core-newsletter-submit{ overflow: hidden; }
 .gdlr-core-newsletter-item.gdlr-core-style-curve .gdlr-core-newsletter-email input[type="email"]{ width: 100%; font-size: 15px; line-height: 20px; border-width: 0px; padding: 19px 20px; height: 58px; }
-.gdlr-core-newsletter-item.gdlr-core-style-curve .gdlr-core-newsletter-submit input[type="submit"]{ display: block; width: 100%; font-size: 16px; line-height: 20px; padding: 19px 0px; height: 58px; 
+.gdlr-core-newsletter-item.gdlr-core-style-curve .gdlr-core-newsletter-submit input[type="submit"]{ display: block; width: 100%; font-size: 16px; line-height: 20px; padding: 19px 0px; height: 58px;
 	text-transform: none; font-weight: normal; letter-spacing: 0px;
 	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
  

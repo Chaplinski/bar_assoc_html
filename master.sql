@@ -40,7 +40,7 @@ VALUES ( 'Ketura', '', 'Baptiste', '', 'kbaptiste@pslegal.org', '191 South Chica
 ( 'Ann', '', 'Brezinski', '', 'abrezinski@brezinskilaw.com', '765 Plum Creek Drive', 'Bourbonnais, Illinois 60914', '', '815/932-4720', '815/932-4703', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
 ( 'Mary', 'Elise', 'Burnett', '', 'maryelise@meburnettlaw.com', 'One Dearborn Square, Suite 429', 'Kankakee, Illinois 60901', '', '815/939-4472', '815/939-4478', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
 ( 'Deanna', '', 'Carlson Webb', '', 'dcwlaw08@hotmail.com', 'One Dearborn Square, Suite 429', 'Kankakee, Illinois 60901', '', '815/939-4472', '815/939-4478', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
-( 'Claire', '', 'Chaplinski', '', 'chaplinski.lawfirm@gmail.com', '200 East Court Street', 'Suite 212', 'Kankakee, Illinois 60901', '815/939-7155', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
+( 'Claire', '', 'Chaplinski', '', 'chaplinski.lawfirm@gmail.com', '200 East Court Street', 'Suite 212', 'Kankakee, Illinois 60901', '815/939-7155', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/claire-chaplinski-b0783310/'),
 ( 'Randall', '', 'Chaplinski', '', 'randy.chaplinski@sbherscher.com', '10 Tobey Drive', 'P.O. Box 68', 'Herscher, Illinois 60941', '815/421-4800', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
 ( 'John', '', 'Coghlan', '', 'jcoghlan@amb-ltd.com', 'One Dearborn Square, Suite 400', 'Kankakee, Illinois 60901', '', '815/933-6681', '815/933-6623', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
 ( 'Thomas', '', 'Cunnington', 'Judge', 'tcunnington@k3county.net', '1050 Cobb Boulevard', 'Kankakee, Illinois 60901', '', '815/928-8850', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', ''),
@@ -92,9 +92,36 @@ VALUES ( 'Ketura', '', 'Baptiste', '', 'kbaptiste@pslegal.org', '191 South Chica
 
 
 
+CREATE TABLE judges (
+  id int NOT NULL AUTO_INCREMENT,
+  first_name varchar(32),
+  middle_name varchar(32),
+  last_name varchar(32),
+  title varchar(32),
+  email varchar(64),
+  street_address1 varchar(128),
+  street_address2 varchar(128),
+  street_address3 varchar(128),
+  phone varchar(16),
+  fax varchar(16),
+  image varchar(64),
+  linked_in varchar(128),
+  PRIMARY KEY (id)
+);
 
 
-
+INSERT INTO judges ( first_name, middle_name, last_name, title, email, street_address1, street_address2, street_address3, phone, fax, image, linked_in)
+VALUES
+( 'Michael', 'D', 'Kramer', 'Chief Judge', '', '', '', '', '', '', '', ''),
+( 'Adrienne', 'W.', 'Albrecht', 'Circuit Judge', '', '', '', '', '', '', '', ''),
+( 'Kathy', '', 'Bradshaw-Elliott', 'Circuit Judge', '', '', '', '', '', '', '', ''),
+( 'Michael', 'J.', 'Kick', 'Circuit Judge', '', '', '', '', '', '', '', ''),
+( 'Ronald', 'J.', 'Gerts', 'Associate Judge', '', '', '', '', '', '', '', ''),
+( 'Clark', 'E.', 'Erickson', 'Circuit Judge', '', '', '', '', '', '', '', ''),
+( 'Thomas', 'W.', 'Cunnington', 'Circuit Judge', '', '', '', '', '', '', '', ''),
+( 'William', 'S.', 'Dickenson', 'Associate Judge', '', '', '', '', '', '', '', ''),
+( 'J.', 'Imani', 'Drew', 'Associate Judge', '', '', '', '', '', '', '', ''),
+( 'Scott', '', 'Sliwinski', 'Associate Judge', '', '', '', '', '', '', '', '');
 
 
 

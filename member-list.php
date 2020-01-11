@@ -64,54 +64,48 @@ include_once 'all_includes.php';
                                         <?php
 
 
-                                        $aAttorneys = new Attorney();
-
-                                        if(isset($_GET['law_type'])) {
-                                            $lawType = $_GET['law_type'];
-                                            $result = $aAttorneys->getByType($lawType);
-                                        } else {
-                                            $result = $aAttorneys->getAll();
-                                        }
+                                        $oA = new Attorney();
+                                        $aA = $oA->getAll();
 
 
-                                        foreach($result as $row) {
+                                        foreach($aA as $oA) {
                                             echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-personnel-list clearfix">
                                                         <div class="gdlr-core-personnel-list-content-wrap">
                                                            
                                                             <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">
-                                                                <a href="#" >' . $row['first_name'] . ' ' . $row['middle_name'] . ' ' . $row['last_name'] . '</a>
+                                                                <a href="#" >' . $oA->sFirst . ' ' . $oA->sMiddle . ' ' . $oA->sLast . '</a>
                                                                 
                                                             </h3>';
 
-                                            if(!empty($row['linked_in'])) {
-                                                echo '<a href="' . $row['linked_in'] . '" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;">
+                                            if(!empty($oA->sLinkedin)) {
+                                                echo '<a href="' . $oA->sLinkedin . '" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;">
                                                           <img src="images/output-onlinepngtools.png">
                                                       </a>';
                                             }
 
                                             echo '<div class="gdlr-core-personnel-info">';
 
-                                            if(!empty($row['email'])) {
-                                                echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i><a href="mailto:' . $row['email'] . '">' . $row['email'] . '</a></div>';
+                                            if(!empty($oA->sEmail)) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i><a href="mailto:' . $oA->sEmail . '">' . $oA->sEmail . '</a></div>';
                                             }
-                                            if(!empty($row['phone'])) {
-                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i><a href="tel:' . $row['phone'] . '">' . $row['phone'] . '</a></div>';
+                                            if(!empty($oA->sPhone)) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i><a href="tel:' . $oA->sPhone . '">' . $oA->sPhone . '</a></div>';
                                             }
-                                            if(!empty($row['fax'])) {
-                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $row['fax'] . '</div>';
+                                            if(!empty($oA->sFax)) {
+                                                echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $oA->sFax . '</div>';
                                             }
                                                             echo '</div>';
 
-                                                            if(!empty($row['street_address1'])) {
+                                                            if(!empty($oA->sStreet1)) {
 
                                                                 echo '<div class="gdlr-core-personnel-list-content">
-                                                                <p>' . $row['street_address1'];
-                                                                if(!empty($row['street_address2'])) {
-                                                                    echo '<br />' . $row['street_address2'];
+                                                                <p>' . $oA->sStreet1;
+                                                                if(!empty($oA->sStreet2)) {
+                                                                    echo '<br />' . $oA->sStreet2;
                                                                 }
-                                                                if(!empty($row['street_address3'])) {
-                                                                    echo '<br />' . $row['street_address3'];
+                                                                if(!empty($oA->sStreet3)) {
+                                                                    echo '<br />' . $oA->sStreet3;
                                                                 }
                                                                 echo '</p>
                                                             </div>';

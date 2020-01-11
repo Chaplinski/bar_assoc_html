@@ -138,7 +138,7 @@ include_once 'all_includes.php';
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-78243">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="https://pslegal.org/ " target="_self" >Prairie State Legal Service</a></h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="https://pslegal.org/ " target="_self" >Prairie State Legal Services</a></h3></div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
@@ -177,7 +177,7 @@ include_once 'all_includes.php';
                                                                 </span>
                                                                 <div class="gdlr-core-event-item-content-wrap">
                                                                     <h3 class="gdlr-core-event-item-title">
-                                                                        <a href="#" >' . $oEvent->sTitle . '</a>
+                                                                        <a href="calendar.php" >' . $oEvent->sTitle . '</a>
                                                                     </h3>
                                                                     <div class="gdlr-core-event-item-info-wrap">
                                                                         <span class="gdlr-core-event-item-info gdlr-core-type-time">
@@ -218,18 +218,30 @@ include_once 'all_includes.php';
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_104">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_33">Subscribe To Newsletter</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9">Get updates to news & events</span></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_33">Join the Kankakee County Bar Association</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9">Get updates to news & events</span></div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-newsletter-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-style-rectangle-full">
 
                                                     <div class="newsletter newsletter-subscription">
-                                                        <form class="gdlr-core-newsletter-form clearfix" method="post" action="#">
-                                                            <div class="gdlr-core-newsletter-email">
-                                                                <input class="newsletter-email gdlr-core-skin-e-background gdlr-core-skin-e-content" placeholder="Your Email Address" type="email" name="ne" size="30" required />
+                                                        <form class="gdlr-core-course-form clearfix" method="post" action="#">
+                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
+                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
+                                                                    <input type="text" placeholder="Your Name" name="course-keywords" value="" />
+                                                                </div>
+                                                            </div>
+                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
+                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
+                                                                    <input type="email" placeholder="Email Address" name="course-keywords" value="" />
+                                                                </div>
+                                                            </div>
+                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
+                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
+                                                                    <input type="textarea" placeholder="Email Address" name="course-keywords" value="" />
+                                                                </div>
                                                             </div>
                                                             <div class="gdlr-core-newsletter-submit">
-                                                                <input class="newsletter-submit" type="submit" value="Subscribe" />
+                                                                <input class="newsletter-submit" type="submit" value="Join" />
                                                             </div>
                                                         </form>
                                                     </div>

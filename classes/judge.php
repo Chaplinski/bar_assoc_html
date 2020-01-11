@@ -1,6 +1,6 @@
 <?php
 
-class Attorney extends DB {
+class Judge extends DB {
 
     public $sFirst;
     public $sMiddle;
@@ -17,16 +17,16 @@ class Attorney extends DB {
 
     public function getAll(){
         $result = $this->getAllFromDB();
-        $aoA = array();
+        $aoJudges = array();
 
         foreach($result as $row) {
-            $oA = new Attorney();
-            $oA->dbValuesToObject($row);
-            array_push($aoA, $oA);
+            $oJudge = new Judge();
+            $oJudge->dbValuesToObject($row);
+            array_push($aoJudges, $oJudge);
 
         }
 
-       return $aoA;
+        return $aoJudges;
 
     }
 
@@ -50,7 +50,7 @@ class Attorney extends DB {
 
     private function getAllFromDB(){
 
-        $sql = "SELECT `first_name`, `middle_name`, `last_name`, `title`, `email`, `street_address1`, `street_address2`, `street_address3`, `phone`, `fax`, `image`, `linked_in` FROM `attorneys` ORDER BY `last_name` ASC";
+        $sql = "SELECT `first_name`, `middle_name`, `last_name`, `title`, `email`, `street_address1`, `street_address2`, `street_address3`, `phone`, `fax`, `image`, `linked_in` FROM `judges` ORDER BY `last_name` ASC";
         $result = $this->connect()->query($sql);
         $num_rows = $result->num_rows;
 

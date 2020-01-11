@@ -59,7 +59,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                                                         <div class="gdlr-core-column-service-title-wrap">
                                                             <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 18px ;text-transform: none ;">Submit an event:</h3></div>
                                                         <div class="gdlr-core-column-service-content" style="font-size: 16px ;text-transform: none ;">
-                                                            <p>To submit an event please send an email to: </p>
+                                                            <a href="mailto:k3barassociation@gmail.com"><h5>k3barassociation@gmail.com</h5></a>
                                                         </div>
                                                     </div>
                                                 </div>
