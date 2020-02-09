@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/judge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/26773136257450.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/vmacocss05_1131947684222-1-null.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hammer-719066_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/woman_on_phone.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/all_includes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/attorney.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/event.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/judges.php" beforeDir="false" afterPath="$PROJECT_DIR$/judges.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" afterPath="$PROJECT_DIR$/master.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/member-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,41 +18,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="bar website" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="judges.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/judges.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="281" selection-start-line="26" selection-start-column="281" selection-end-line="26" selection-end-column="281" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="239" column="89" selection-start-line="239" selection-start-column="89" selection-end-line="239" selection-end-column="89" />
+            <state relative-caret-position="3791">
+              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#31#37#0" expanded="true" />
                 <element signature="e#37#43#0" expanded="true" />
                 <element signature="e#43#49#0" expanded="true" />
@@ -70,38 +49,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="judges.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/judges.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="19" column="114" lean-forward="true" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="page-builder.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="1992" column="69" lean-forward="true" selection-start-line="1992" selection-start-column="69" selection-end-line="1992" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_includes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_includes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="judge.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/judge.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="52" column="189" selection-start-line="52" selection-start-column="189" selection-end-line="52" selection-end-column="189" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/master.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="103" column="31" lean-forward="true" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+            <state relative-caret-position="33864">
+              <caret line="1992" column="69" selection-start-line="1992" selection-start-column="69" selection-end-line="1992" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -109,30 +73,24 @@
       <file leaf-file-name="member-list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+            <state relative-caret-position="170">
+              <caret line="34" column="200" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="200" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attorney.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name="vmacocss05_1131947684222-1-null.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131947684222-1-null.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>facebook</find>
-      <find>kingster-main-menu-right-wrap clearfix</find>
-      <find>fa-link</find>
-      <find>fa-linked</find>
-      <find>450 E Cou</find>
       <find>&lt;div class=&quot;kingster-mobile-menu&quot;</find>
       <find>gdlr-core-pbf-wrapper</find>
       <find>gdlr-core-pbf-sidebar-right gdlr-core-column-extend-right  kingster-sidebar-area gdlr-co</find>
@@ -158,6 +116,11 @@
       <find>law_type</find>
       <find>Subscribe</find>
       <find>.gdlr-core-newsletter-email input[type=&quot;email&quot;]</find>
+      <find>src</find>
+      <find>read more</find>
+      <find>Kankakee Cou</find>
+      <find>Join</find>
+      <find>get upda</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,11 +148,11 @@
         <option value="$PROJECT_DIR$/classes/event.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/classes/attorney.php" />
-        <option value="$PROJECT_DIR$/member-list.php" />
         <option value="$PROJECT_DIR$/master.sql" />
         <option value="$PROJECT_DIR$/classes/judge.php" />
-        <option value="$PROJECT_DIR$/judges.php" />
         <option value="$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css" />
+        <option value="$PROJECT_DIR$/member-list.php" />
+        <option value="$PROJECT_DIR$/judges.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -230,7 +193,13 @@
             <path>
               <item name="bar website" type="b2602c69:ProjectViewProjectNode" />
               <item name="bar website" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bar website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bar website" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,19 +216,20 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../themeforest-mF7KlS1h-kingster-education-html-template/kingster - placehold" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\scott\Desktop\bar website\images" />
-      <recent name="C:\Users\scott\Desktop\bar website\classes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\scott\Desktop\bar website" />
       <recent name="C:\Users\scott\Desktop\bar website\images" />
       <recent name="C:\xampp\htdocs\bar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\scott\Development\bar website\images\banner" />
+      <recent name="C:\Users\scott\Desktop\bar website\images" />
+      <recent name="C:\Users\scott\Desktop\bar website\classes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,25 +264,25 @@
       <workItem from="1557890908364" duration="785000" />
       <workItem from="1559964315716" duration="648000" />
       <workItem from="1561262497392" duration="87000" />
-      <workItem from="1577747309780" duration="50384000" />
+      <workItem from="1577747309780" duration="52234000" />
+      <workItem from="1581282892109" duration="4723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78205000" />
+    <option name="totallyTimeSpent" value="84778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32933334" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32933334" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.616" visible="true" weight="0.17989418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.616" visible="true" weight="0.18065004" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
@@ -321,7 +291,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" weight="0.32955405" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32955405" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -335,83 +305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judges.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5151">
-          <caret line="303" selection-start-line="303" selection-end-line="303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -592,13 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7786">
-          <caret line="458" column="37" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php" />
     <entry file="file://$PROJECT_DIR$/all_includes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -634,52 +521,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="81" column="81" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/master.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="103" column="31" lean-forward="true" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+        <state relative-caret-position="1751">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/judge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="884">
           <caret line="52" column="189" selection-start-line="52" selection-start-column="189" selection-end-line="52" selection-end-column="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judges.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="281" selection-start-line="26" selection-start-column="281" selection-end-line="26" selection-end-column="281" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1992" column="69" lean-forward="true" selection-start-line="1992" selection-start-column="69" selection-end-line="1992" selection-end-column="69" />
+        <state relative-caret-position="33864">
+          <caret line="1992" column="69" selection-start-line="1992" selection-start-column="69" selection-end-line="1992" selection-end-column="69" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/vmatxsls06_1129827762508-1-null.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/vmatxsls06_1129831111889-1-null.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="4008" column="31" selection-start-line="4008" selection-start-column="31" selection-end-line="4008" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/kingster-style-custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/59676.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/26773136257450.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/26773136507700.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/26773140260701.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131945985126-0-null.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131947349180-1-null.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="200" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="200" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/judges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="19" column="114" lean-forward="true" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131947684222-1-null.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="239" column="89" selection-start-line="239" selection-start-column="89" selection-end-line="239" selection-end-column="89" />
+        <state relative-caret-position="3791">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#31#37#0" expanded="true" />
             <element signature="e#37#43#0" expanded="true" />
             <element signature="e#43#49#0" expanded="true" />

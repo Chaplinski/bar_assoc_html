@@ -32,7 +32,7 @@ include_once 'all_includes.php';
 
             <?php include 'header.php' ?>
 
-            <div class="kingster-page-title-wrap  kingster-style-medium kingster-left-align">
+            <div class="kingster-page-title-wrap  kingster-style-medium kingster-left-align"  style="background-image: url('/images/banner/vmacocss05_1131947684222-1-null.jpg'); background-size: cover">
                 <div class="kingster-header-transparent-substitute"></div>
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-container kingster-container">

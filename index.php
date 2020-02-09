@@ -36,7 +36,9 @@ include_once 'all_includes.php';
                 <div class="gdlr-core-page-builder-body">
                     <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
                         <div class="gdlr-core-pbf-background-wrap">
-                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"></div>
+                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2">
+                                <img src="images/banner/26773136257450.jpeg" style="width: 100%">
+                            </div>
                         </div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
@@ -46,7 +48,7 @@ include_once 'all_includes.php';
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_25">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5">Kankakee County </br>Bar Association</h3></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_5" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Kankakee County </br>Bar Association</h3></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,9 +73,6 @@ include_once 'all_includes.php';
                                                             » and to encourage professional friendships and mentors to offer guidance and support to the membership</p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="#" id="gdlr-core-button-id-66813"><span class="gdlr-core-content" >Read More</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_0"  ></i></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -206,44 +205,24 @@ include_once 'all_includes.php';
                                 </div>
                                 <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="Newsletter">
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " id="div_1dd7_100">
-                                        <div class="gdlr-core-pbf-background-wrap">
-                                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_101" data-parallax-speed="0"></div>
+                                        <div class="gdlr-core-pbf-background-wrap"  style="display: flex; justify-content: center; align-items: center; overflow: hidden">
+                                            <img src="images/hammer-719066_1920.jpg" style="flex-shrink: 0; min-width: 100%; min-height: 100%">
                                         </div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align" id="div_1dd7_102">
-                                                    <div class="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" id="div_1dd7_103"><img src="upload/icon-envelope.png" alt="" width="78" height="60" title="icon-envelope" /></div>
-                                                </div>
-                                            </div>
+
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" id="div_1dd7_104">
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_33">Join the Kankakee County Bar Association</h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9">Get updates to news & events</span></div>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_33" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Join the Kankakee County Bar Association</h3>
+                                                    </div>
+                                                    <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Get updates to news & events</span>
+                                                </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-newsletter-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-style-rectangle-full">
 
-                                                    <div class="newsletter newsletter-subscription">
-                                                        <form class="gdlr-core-course-form clearfix" method="post" action="#">
-                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
-                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
-                                                                    <input type="text" placeholder="Your Name" name="course-keywords" value="" />
-                                                                </div>
-                                                            </div>
-                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
-                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
-                                                                    <input type="email" placeholder="Email Address" name="course-keywords" value="" />
-                                                                </div>
-                                                            </div>
-                                                            <div class=" gdlr-core-course-column gdlr-core-column-60 gdlr-core-column-first" style="padding-bottom: 20px">
-                                                                <div class="gdlr-core-course-search-field gdlr-core-course-field-keywords">
-                                                                    <input type="textarea" placeholder="Email Address" name="course-keywords" value="" />
-                                                                </div>
-                                                            </div>
-                                                            <div class="gdlr-core-newsletter-submit">
-                                                                <input class="newsletter-submit" type="submit" value="Join" />
-                                                            </div>
-                                                        </form>
+                                                    <div class="newsletter newsletter-subscription" style="text-align: center">
+                                                        <a class="gdlr-core-excerpt-read-more gdlr-core-button gdlr-core-rectangle" href="mailto:k3barassociation@gmail.com?subject=Join Kankakee County Bar Association&body=I am interested in information on joining the Kankakee County Bar Association." style="alignment: center">Join</a>
                                                     </div>
                                                 </div>
                                             </div>
