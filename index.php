@@ -36,8 +36,8 @@ include_once 'all_includes.php';
                 <div class="gdlr-core-page-builder-body">
                     <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
                         <div class="gdlr-core-pbf-background-wrap">
-                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2">
-                                <img src="images/banner/26773136257450.jpeg" style="width: 100%">
+                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"  style="background-image: url('/images/banner/26773136257450.jpeg'); background-size: cover">
+<!--                                <img src="images/banner/26773136257450.jpeg" style="width: 100%">-->
                             </div>
                         </div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
@@ -60,14 +60,14 @@ include_once 'all_includes.php';
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                                        <p>Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held. Now, our home is kankakeecountybarassociation.org. The KCBA is a legacy system wherein the officers are determined by seniority.</p>
+                                                        <p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held. Now, our home is kankakeecountybarassociation.org. The KCBA is a legacy system wherein the officers are determined by seniority.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_28">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_29">
-                                                        <p>The mission of the KCBA is<br/>
+                                                        <p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">The mission of the KCBA is<br/>
                                                             » to foster good bench/bar relations in order to improve our local court system<br/>
                                                             » to promote and provide ethical and competent attorneys to serve our community<br/>
                                                             » and to encourage professional friendships and mentors to offer guidance and support to the membership</p>
