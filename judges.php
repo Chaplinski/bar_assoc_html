@@ -37,7 +37,7 @@ include_once 'all_includes.php';
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-container kingster-container">
                     <div class="kingster-page-title-content kingster-item-pdlr">
-                        <h1 class="kingster-page-title">Kankakee Bar<br>Association Judges</h1></div>
+                        <h1 class="kingster-page-title">Kankakee County Bar<br>Association Judges</h1></div>
                 </div>
             </div>
             <div class="kingster-breadcrumbs">
@@ -67,34 +67,24 @@ include_once 'all_includes.php';
                                             $oJ = new Judge();
                                             $aJ = $oJ->getAll();
 
-
                                             foreach($aJ as $oJ) {
+                                                $sKankakeeUrl = "http://www.co.kankakee.il.us/21stJudicial/Judges.html";
+
+                                                if (!empty($oJ->sLinkedin)){
+                                                    $sKankakeeUrl = $oJ->sLinkedin;
+                                                }
                                                 echo '<div class="gdlr-core-personnel-list-column  gdlr-core-column-60 gdlr-core-column-first gdlr-core-item-pdlr">
                                                     <div class="gdlr-core-personnel-list clearfix">
                                                         <div class="gdlr-core-personnel-list-content-wrap">
                                                            
                                                             <h3 class="gdlr-core-personnel-list-title" style="font-size: 23px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">
-                                                                <a href="http://www.co.kankakee.il.us/21stJudicial/Judges.html" >' . $oJ->sFirst . ' ' . $oJ->sMiddle . ' ' . $oJ->sLast . '</a>
+                                                                <a href="' . $sKankakeeUrl . '">Hon. ' . $oJ->sFirst . ' ' . $oJ->sMiddle . ' ' . $oJ->sLast . '</a>
                                                                 
                                                             </h3>';
 
-                                                if(!empty($oJ->sLinkedin)) {
-                                                    echo '<a href="' . $oJ->sLinkedin . '" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 18px ;color: #50bd77 ;">
-                                                          <img src="images/output-onlinepngtools.png">
-                                                      </a>';
-                                                }
-
                                                 echo '<div class="gdlr-core-personnel-info">';
 
-                                                if(!empty($oJ->sEmail)) {
-                                                    echo '<div class="kingster-personnel-info-list kingster-type-email"><i class="kingster-personnel-info-list-icon fa fa-envelope-open"></i><a href="mailto:' . $oJ->sEmail . '">' . $oJ->sEmail . '</a></div>';
-                                                }
-                                                if(!empty($oJ->sPhone)) {
-                                                    echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-phone"></i><a href="tel:' . $oJ->sPhone . '">' . $oJ->sPhone . '</a></div>';
-                                                }
-                                                if(!empty($oJ->sFax)) {
-                                                    echo '<div class="kingster-personnel-info-list kingster-type-phone"><i class="kingster-personnel-info-list-icon fa fa-fax"></i>' . $oJ->sFax . '</div>';
-                                                }
+
                                                 echo '</div>';
 
                                                 if(!empty($oJ->sTitle)) {

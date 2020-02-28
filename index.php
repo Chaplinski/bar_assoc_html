@@ -60,7 +60,7 @@ include_once 'all_includes.php';
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                                        <p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held. Now, our home is kankakeecountybarassociation.org. The KCBA is a legacy system wherein the officers are determined by seniority.</p>
+                                                        <p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -215,7 +215,7 @@ include_once 'all_includes.php';
                                                     <div class="gdlr-core-title-item-title-wrap clearfix">
                                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_33" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Join the Kankakee County Bar Association</h3>
                                                     </div>
-                                                    <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Get updates to news & events</span>
+                                                    <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" id="span_1dd7_9" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Get updates on news & events</span>
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">

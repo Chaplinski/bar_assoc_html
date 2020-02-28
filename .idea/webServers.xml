@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="1c39b258-7050-4f54-99c2-4ab919cc5797" name="Bar Association" url="http://3.136.253.72">
-        <fileTransfer host="3.136.253.72" port="22" privateKey="C:\Users\scott\.ssh\id_rsa" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+      <webServer id="1c39b258-7050-4f54-99c2-4ab919cc5797" name="Bar Association" url="http://3.21.13.169">
+        <fileTransfer host="3.21.13.169" port="22" privateKey="C:\Users\scott\.ssh\id_rsa" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

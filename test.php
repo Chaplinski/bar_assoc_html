@@ -2,9 +2,11 @@
 
 include_once 'all_includes.php';
 
+$oCalendar = new BarCalendar();
+$aUpcomingEvents = $oCalendar->getUpcomingEvents();
 
-$oJudge = new Attorney();
-$aJudges = $oJudge->getAll();
+echo '<pre>';
+print_r($aUpcomingEvents);
 //
 //print_r('<pre>');
 //print_r($aUpcomingEvents);

@@ -5,7 +5,6 @@ class BarCalendar
 
     public function getUpcomingEvents()
     {
-
         exec('php quickstart.php', $events);
 
         $aEvents = array();

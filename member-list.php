@@ -37,7 +37,7 @@ include_once 'all_includes.php';
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-container kingster-container">
                     <div class="kingster-page-title-content kingster-item-pdlr">
-                        <h1 class="kingster-page-title">Kankakee Bar<br>Association Attorneys</h1>
+                        <h1 class="kingster-page-title">Kankakee County Bar<br>Association Attorneys</h1>
                     </div>
 
                 </div>
