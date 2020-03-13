@@ -46,7 +46,7 @@ $sEmail = $oContact->email;
                                         <li class="menu-item">President - Nicholas Elliott</li>
                                         <li class="menu-item">Vice President - Claire Chaplinski</li>
                                         <li class="menu-item">Treasurer - Dana Meyer</li>
-                                        <li class="menu-item">Secretary - Teresa Goudie</li>
+                                        <li class="menu-item">Secretary - Theresa Goudie</li>
                                     </ul>
                                 </div>
                             </div>
