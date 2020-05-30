@@ -50,7 +50,7 @@ class Attorney extends DB {
 
     private function getAllFromDB(){
 
-        $sql = "SELECT `first_name`, `middle_name`, `last_name`, `title`, `email`, `street_address1`, `street_address2`, `street_address3`, `phone`, `fax`, `image`, `linked_in` FROM `attorneys` ORDER BY `last_name` ASC";
+        $sql = "SELECT `first_name`, `middle_name`, `last_name`, `title`, `email`, `street_address1`, `street_address2`, `street_address3`, `phone`, `fax`, `image`, `linked_in` FROM `attorneys` ORDER BY `last_name`, `first_name` ASC";
         $result = $this->connect()->query($sql);
         $num_rows = $result->num_rows;
 

@@ -53,7 +53,7 @@ VALUES ( 'Glen', 'R.', 'Barmann', '', 'barmann@kankakeelaw.com', 'Barmann, Bohle
 ( 'Dawn', '', 'Landwehr', '', 'dlandw@hotmail.com', 'P.O. Box 123', 'Kankakee, Illinois 60901', '', '815/929-0100', '815/929-0200', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
 ( 'Sandra', 'K.', 'Loeb', '', 'sloeb@spiroslaw.com', 'Spiros Law', '1230 West Court Street', 'Kankakee, Illinois 60901', '815/929-9292', '217/443-4545', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/sandy-loeb-89746414/' ),
 ( 'Kim', '', 'Loewen', '', 'kloewen@pslegal.org', 'Prairie State Legal Services', '191 South Chicago Avenue', 'Kankakee, Illinois 60901', '815/935-2750', '815/935-0906', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/kim-loewen-40287264/' ),
-( 'Jennifer', 'E', 'Mansberger', '', 'jennifer@mblegalteam.com', '101 W. Cherry Street', 'Watseka, Illinois 60970', '', '815/432-4332', '708/221-0707', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/jennifer-mansberger-66a3b1148/' ),
+( 'Jennifer', 'E.', 'Mansberger', '', 'jennifer@mblegalteam.com', '101 W. Cherry Street', 'Watseka, Illinois 60970', '', '815/432-4332', '708/221-0707', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/jennifer-mansberger-66a3b1148/' ),
 ( 'J. Dennis', '', 'Marek', '', 'dmarek@amb-ltd.com', 'One Dearborn Square, Suite 400', 'Kankakee, Illinois 60901', '', '815/933-6681', '815/933-6623', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
 ( 'Thomas', '', 'McClure', '', 'temcclu@ilstu.edu', '2103 Cinnamon Lane', 'Bloomington, Illinois 61704', '', '309/808-1889', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/thomas-mcclure-b0405936/' ),
 ( 'Frank', 'J.', 'Meents', '', 'frank@meentslaw.com', '25158 W. Eames Street, Unit A', 'Channahon, Illinois 60410', '', '815/534-9515', '815/534-9516', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', 'https://www.linkedin.com/in/frank-meents-86077b3/' ),
@@ -84,7 +84,12 @@ VALUES ( 'Glen', 'R.', 'Barmann', '', 'barmann@kankakeelaw.com', 'Barmann, Bohle
 ( 'Neeley', '', 'Regas', '', 'neeleyregaslaw@gmail.com',  'One Dearborn Square, Suite 300', 'Kankakee, Illinois 60901', '', '815/573-5502', '815/573-5516', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
 ( 'Jim', '', 'Rowe', '', '',  '450 East Court Street', 'Kankakee, Illinois 60901', '', '', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
 ( 'Mark', '', 'Steffen', '', 'stefnlaw@comcast.net',  'P.O. Box 993', 'Kankakee, Illinois 60901', '', '815/922-9873', '', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
-( 'Susan', 'S.', 'Tungate', '', 'susan.tungate@yahoo.com',  '744 E. Walnut Street P.O. Box 337', 'Watseka, Illinois 60970', '', '815/432-4979', '815/432-4977', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' );
+( 'Susan', 'S.', 'Tungate', '', 'susan.tungate@yahoo.com',  '744 E. Walnut Street P.O. Box 337', 'Watseka, Illinois 60970', '', '815/432-4979', '815/432-4977', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
+( 'Patrick', 'T.', 'Dunn', '', 'patrickdunn@patdunnlaw.com',  '1250 N. Convent Street, Suite B', 'Bourbonnais, Illinois 60914', '', '815/933-6637', '815/933-9940', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
+( 'Anastasia', 'Heiss', 'Hess', '', 'ahess@lglfirm.com',  '2400 Glenwood Ave, Suite 200', 'Joliet, Illinois  60435', '', '815/726-3600', '815/726-3676', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
+( 'Troy', 'A.', 'Lundquist', '', 'tlundquist@lglfirm.com',  '2400 Glenwood Ave, Suite 200', 'Joliet, Illinois  60435', '', '815/726-3600', '815/726-3676', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
+( 'Mohammed', 'A.', 'Nofal', '', 'mnofal@lglfirm.com',  '2400 Glenwood Ave, Suite 200', 'Joliet, Illinois  60435', '', '815/726-3600', '815/726-3676', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' ),
+( 'Robert', '', 'Regas', '', 'robertregaslaw@gmail.com',  '297 S. Schuyler Avenue', 'Kankakee, Illinois  60901', '', '815/933-2600', '815/933-2606', 'https://via.placeholder.com/340x550.png?text=Image+of+attorney', '' );
 
 
 
