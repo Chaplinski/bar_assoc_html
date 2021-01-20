@@ -15,6 +15,12 @@ include_once 'all_includes.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kankakee County Bar Association - Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held.">
+    <meta name="keywords" content="Kankakee, Kankakee County, Bourbonnais, Bradley, Court House, Courthouse, Kankakee Courthouse, Attorney, Lawyer, Kankakee Lawyer, estate planning, probate, landlord, tenant, real estate attorney, civil litigation, litigation">
+    <meta property="og:title" content="Kankakee County Bar Association">
+    <meta property="og:description" content="Always ahead of its time, the Kankakee County Bar Association (KCBA) has been a virtual organization since its beginnings in the 1880s. With no permanent home, the KCBA finds its home in the camaraderie and collegiality of member meetings wherever they may be held.">
+    <meta property="og:image" content="https://kankakeebarassociation.org/images/banner/kankakee_courthouse.jpeg">
+    <meta property="og:url" content="https://kankakeebarassociation.org/">
 
     <title>Kankakee County Bar Association</title>
 
@@ -36,7 +42,7 @@ include_once 'all_includes.php';
                 <div class="gdlr-core-page-builder-body">
                     <div class="gdlr-core-pbf-wrapper " id="div_1dd7_21">
                         <div class="gdlr-core-pbf-background-wrap">
-                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"  style="background-image: url('/images/banner/26773136257450.jpeg'); background-size: cover">
+                            <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" id="div_1dd7_22" data-parallax-speed="0.2"  style="background-image: url('/images/banner/kankakee_courthouse.jpeg'); background-size: cover">
 <!--                                <img src="images/banner/26773136257450.jpeg" style="width: 100%">-->
                             </div>
                         </div>
@@ -84,67 +90,63 @@ include_once 'all_includes.php';
                         <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_31"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-
                             </div>
                         </div>
                     </div>
-
-
                     <div class="gdlr-core-pbf-wrapper " id="div_1dd7_91">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-
                                 <div class="gdlr-core-pbf-column gdlr-core-column-20" id="gdlr-core-column-8">
-                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
-                                            <div class="gdlr-core-block-item-title-inner clearfix">
-                                                <h3 class="gdlr-core-block-item-title" id="h3_1dd7_32">Quick Links</h3>
-                                                <div class="gdlr-core-block-item-title-divider" id="div_1dd7_96"></div>
+                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                        <div class="gdlr-core-block-item-title-inner clearfix">
+                                            <h3 class="gdlr-core-block-item-title" id="h3_1dd7_32">Quick Links</h3>
+                                            <div class="gdlr-core-block-item-title-divider" id="div_1dd7_96"></div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-66469">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="http://www.co.kankakee.il.us/21stJudicial/index.html" target="_self" >Kankakee County Courthouse</a></h3></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-66469">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_16"><a href="http://www.co.kankakee.il.us/21stJudicial/index.html" target="_self" >Kankakee County Courthouse</a></h3></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_52">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_53"></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_52">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_53"></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-42777">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="https://eaccess.k3county.net/eservices/home.page.2" target="_self" >Kankakee County Online Court Case Search</a></h3></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-42777">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_17"><a href="https://eaccess.k3county.net/eservices/home.page.2" target="_self" >Kankakee County Online Court Case Search</a></h3></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_54">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_55"></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_54">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_55"></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-51281">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="https://www.judici.com/" target="_self" >Iroquois County Online Court Case Search</a></h3></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-51281">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_18"><a href="https://www.judici.com/" target="_self" >Iroquois County Online Court Case Search</a></h3></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_56">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_57"></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_56">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_57"></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-78243">
+                                                <div class="gdlr-core-title-item-title-wrap clearfix">
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="https://pslegal.org/ " target="_self" >Prairie State Legal Services</a></h3></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"  id="gdlr-core-title-item-id-78243">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " id="h3_1dd7_19"><a href="https://pslegal.org/ " target="_self" >Prairie State Legal Services</a></h3></div>
-                                                </div>
+                                        </div>
+                                        <div class="gdlr-core-pbf-element">
+                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_62">
+                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_63"></div>
                                             </div>
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align" id="div_1dd7_62">
-                                                    <div class="gdlr-core-divider-line gdlr-core-skin-divider" id="div_1dd7_63"></div>
-                                                </div>
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -193,12 +195,10 @@ include_once 'all_includes.php';
                                                     }
                                                     ?>
 
-
-
                                                 </div>
                                             </div>
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-no-border" href="https://chaplinski.xyz/calendar.php" id="a_1dd7_7"><span class="gdlr-core-content" >View All Events</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_2"  ></i></a></div>
+                                                <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button gdlr-core-button-transparent gdlr-core-button-no-border" href="https://www.kankakeebarassociation.org/calendar.php" id="a_1dd7_7"><span class="gdlr-core-content" >View All Events</span><i class="gdlr-core-pos-right fa fa-long-arrow-right" id="i_1dd7_2"  ></i></a></div>
                                             </div>
                                         </div>
                                     </div>
