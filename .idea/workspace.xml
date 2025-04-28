@@ -1,16 +1,544 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleaffff949ecfae10c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/judges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/all_includes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/attorney.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" afterPath="$PROJECT_DIR$/master.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_includes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/calendar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/db_connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/judge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/404-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog-title-gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog-title-top-gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/linkedin-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page-title-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/woman_on_phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/judges.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-bg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-building-1-800x132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/about-title-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/accounting-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/aditya-chinchure-494048-unsplash-800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/aditya-chinchure-494048-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/alumni-about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/annie-spratt-294450-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/annie-spratt-294450-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/apply-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/banner-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/banner-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/banner-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/banner-4-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/banner-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/campus-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-bg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/col-icon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/coming-soon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/dan-gold-105699-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/dan-gold-105699-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/giammarco-boscaro-380907-unsplash-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/giammarco-boscaro-380907-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp-2-half.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp-donation-400x212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-1-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-2-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-3-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-4-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-col-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-link-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-search-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/hp2-video-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-parking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-transportation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon-trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/image-bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/image-bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/image-bg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/image-bg-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/image-bg-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/jakob-owens-199505-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-800x995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/life-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/life-bus-400x202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/life-title-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/link-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/major-bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-1-800x802.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/mega-menu-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/mega-menu-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/nathan-dumlao-572047-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/newsletter-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/nils-478-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/page-title-apply.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/page-title-athletics-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/page-title-athletics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/page-title-support.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/page-title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pawel-czerwinski-705954-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pawel-czerwinski-705954-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-1-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-1-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-2-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-2-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-3-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-3-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-4-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-4-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-5-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-5-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-6-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-6-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-7-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-7-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/personnel-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-1-800x531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-29585-800x532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-29585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-66134-800x532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-66134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-800x532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/pexels-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-1-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-1-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-1-600x386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-10-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-10-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-10-600x386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-11-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-11-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-11-600x454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-12-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-12-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-12-600x386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-2-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-2-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-2-600x316.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-3-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-3-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-3-600x386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-4-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-4-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-4-600x351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-5-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-5-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-5-600x368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-6-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-6-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-6-600x420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-7-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-7-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-7-600x351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-8-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-8-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-8-600x414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-9-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-9-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-9-600x360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/puk-khantho-125951-unsplash-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/puk-khantho-125951-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-800x472.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/scholarship-student-600x387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/scholarships-title-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/search-bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/search-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/seth-reese-599260-unsplash-800x515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/seth-reese-599260-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x574.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_111027356-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_111027356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_115143385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_132304208.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_134777864.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x560.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150587615.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1-1000x346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_166604900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_167044400-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_167044400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_177301904-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_177301904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_183400235-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_206350801.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_209187682.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_212251981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x487.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_230410570.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_250822657-800x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_250822657.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_270733466-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_270733466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_289596839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x546.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_310855142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_331524281-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_331524281.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_339364214-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_339364214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_378626257-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_378626257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_400221589-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_400221589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-300x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-800x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_470072063-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_470072063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-500x692.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_547272460.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_548927521.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_578916526-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279-800x525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_608688050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_628998404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-500x346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-800x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_689717260-800x550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_689717260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535-800x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_780740548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-495x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-500x346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-500x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_82383217-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_82383217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673-800x292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673-800x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/support-building-800x236.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/support-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/support-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/support-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tab-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tab-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/thermometer-temperature-fever-flu-800x532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/thermometer-temperature-fever-flu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/title-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x377.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-800x523.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash-400x257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash-600x333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/video-bg.jpg" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,220 +546,21 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="bar website" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="166" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/master.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="judge.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/judge.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_includes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_includes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attorney.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="227" selection-start-line="52" selection-start-column="227" selection-end-line="52" selection-end-column="227" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>to submit an</find>
-      <find>legal ser</find>
-      <find>upcoming ev</find>
-      <find>kankakee county bar asso</find>
-      <find>all_in</find>
-      <find>law_type</find>
-      <find>Subscribe</find>
-      <find>.gdlr-core-newsletter-email input[type=&quot;email&quot;]</find>
-      <find>src</find>
-      <find>read more</find>
-      <find>Kankakee Cou</find>
-      <find>Join</find>
-      <find>get upda</find>
-      <find>search...</find>
-      <find>member</find>
-      <find>kankakee county bar</find>
-      <find>h3_1dd7_5</find>
-      <find>kankakee bar&lt;</find>
-      <find>get update</find>
-      <find>kankak</find>
-      <find>godin</find>
-      <find>Upcoming</find>
-      <find>goudie</find>
-      <find>tere</find>
-      <find>ellio</find>
-      <find>kay</find>
-      <find>john</find>
-      <find>and</find>
-      <find>order by</find>
-      <find>mans</find>
-    </findStrings>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/finance-faculty.html" />
-        <option value="$PROJECT_DIR$/finance-faculty.php" />
-        <option value="$PROJECT_DIR$/submit.php" />
-        <option value="$PROJECT_DIR$/js/jquery-3.4.0.js" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/db_connection.php" />
-        <option value="$PROJECT_DIR$/attorney.php" />
-        <option value="$PROJECT_DIR$/classes/db_connection.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/quickstart.php" />
-        <option value="$PROJECT_DIR$/classes/calnedar.php" />
-        <option value="$PROJECT_DIR$/calendar.php" />
-        <option value="$PROJECT_DIR$/classes/event.php" />
-        <option value="$PROJECT_DIR$/classes/judge.php" />
-        <option value="$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/member-list.php" />
-        <option value="$PROJECT_DIR$/judges.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/classes/calendar.php" />
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/sitemap.xml" />
-        <option value="$PROJECT_DIR$/all_includes.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/master.sql" />
-        <option value="$PROJECT_DIR$/classes/attorney.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-182" />
-    <option name="y" value="22" />
-    <option name="width" value="2762" />
-    <option name="height" value="1770" />
-  </component>
+  <component name="ProjectId" id="1ey5m1AfenIKxVYSr0XWfnqG2tG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Kankakee Bar Association" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kankakee Bar Association" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kankakee Bar Association" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kankakee Bar Association" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="remote host&#9;ACTION&#9;WebDeployment.BrowseServers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -240,8 +569,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -257,18 +594,7 @@
       <recent name="C:\Users\scott\Desktop\bar website\classes" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -314,329 +640,37 @@
       <workItem from="1584394458092" duration="1253000" />
       <workItem from="1584485327752" duration="1369000" />
       <workItem from="1584728813638" duration="8000" />
+      <workItem from="1595281154063" duration="1927000" />
+      <workItem from="1599446905414" duration="629000" />
+      <workItem from="1600291337956" duration="138000" />
+      <workItem from="1600291480413" duration="4000" />
+      <workItem from="1600291504326" duration="13000" />
+      <workItem from="1600294173437" duration="269000" />
+      <workItem from="1600647670795" duration="176000" />
+      <workItem from="1602645856640" duration="13000" />
+      <workItem from="1602645911400" duration="306000" />
+      <workItem from="1603480909889" duration="23000" />
+      <workItem from="1610982848981" duration="39000" />
+      <workItem from="1611114564867" duration="161000" />
+      <workItem from="1636647607484" duration="77000" />
+      <workItem from="1656118404259" duration="3464000" />
+      <workItem from="1708805135385" duration="638000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111909000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.616" visible="true" weight="0.25396827" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32933334" />
-      <window_info id="Favorites" order="2" sideWeight="0.384" side_tool="true" weight="0.17989418" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32955405" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32933334" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="127" selection-start-line="52" selection-start-column="127" selection-end-line="52" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3944">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5015">
-          <caret line="295" column="43" lean-forward="true" selection-start-line="276" selection-start-column="36" selection-end-line="295" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3162">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="147" selection-start-line="16" selection-start-column="147" selection-end-line="16" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21811">
-          <caret line="1283" column="72" lean-forward="true" selection-start-line="1283" selection-start-column="72" selection-end-line="1283" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7038">
-          <caret line="414" column="162" selection-start-line="414" selection-start-column="64" selection-end-line="414" selection-end-column="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-3.4.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="10587" column="4" selection-start-line="10587" selection-start-column="4" selection-end-line="10587" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/attorney/personnel-1-500x500.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/linkedin-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="86" lean-forward="true" selection-start-column="86" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php" />
-    <entry file="file://$PROJECT_DIR$/classes/event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/banner/vmatxsls06_1129827762508-1-null.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/vmatxsls06_1129831111889-1-null.jpg" />
-    <entry file="file://$PROJECT_DIR$/css/style-core.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="4008" column="31" selection-start-line="4008" selection-start-column="31" selection-end-line="4008" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/kingster-style-custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/banner/59676.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/26773136257450.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/banner/26773136507700.jpeg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/26773140260701.jpeg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131945985126-0-null.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131947349180-1-null.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/banner/vmacocss05_1131947684222-1-null.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/goodlayers-core/include/css/page-builder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1992" column="68" lean-forward="true" selection-start-line="1992" selection-start-column="68" selection-end-line="1992" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judges.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db_connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="166" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_includes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/judge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/attorney.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="227" selection-start-line="52" selection-start-column="227" selection-end-line="52" selection-end-column="227" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/master.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

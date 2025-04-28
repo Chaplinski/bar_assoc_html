@@ -2,7 +2,12 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="3.21.13.169" id="cf2df23d-24b5-4ad4-a29d-7ac4744bc46c" keyPath="$USER_HOME$/.ssh/k3bar.pem" port="22" customName="Bar Association" nameFormat="CUSTOM" username="ubuntu" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.21.13.169" id="cf2df23d-24b5-4ad4-a29d-7ac4744bc46c" keyPath="$USER_HOME$/.ssh/k3bar.pem" port="22" customName="Bar Association" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="Bar Association" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.132.90.74" id="ee32082e-3fb4-46c6-b8a7-33c74655d1e4" keyPath="$USER_HOME$/.ssh/DEVWedding2.pem" port="22" customName="Doves Eye View" nameFormat="CUSTOM">
+        <option name="customName" value="Doves Eye View" />
+      </sshConfig>
     </configs>
   </component>
 </project>

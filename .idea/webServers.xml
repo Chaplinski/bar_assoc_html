@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="1c39b258-7050-4f54-99c2-4ab919cc5797" name="Bar Association" url="http://3.21.13.169">
-        <fileTransfer host="3.21.13.169" port="22" privateKey="C:\Users\scott\.ssh\id_rsa" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+      <webServer id="e3ed4e1c-eb17-4c10-92ca-36b2ae52d307" name="Doves Eye View">
+        <fileTransfer rootFolder="/var/www/dev" accessType="SFTP" host="3.132.90.74" port="22" sshConfigId="ee32082e-3fb4-46c6-b8a7-33c74655d1e4" sshConfig="Doves Eye View" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
