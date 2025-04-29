@@ -25,7 +25,6 @@
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judges.html" beforeDir="false" afterPath="$PROJECT_DIR$/judges.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/member-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,7 @@
       <workItem from="1636647607484" duration="77000" />
       <workItem from="1656118404259" duration="3464000" />
       <workItem from="1708805135385" duration="638000" />
-      <workItem from="1745854393992" duration="14928000" />
+      <workItem from="1745854393992" duration="16603000" />
     </task>
     <servers />
   </component>
