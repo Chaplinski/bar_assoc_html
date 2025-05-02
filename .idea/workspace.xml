@@ -23,521 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aaf5a19-9343-4fdd-afcb-0b5dfeebc18d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/judges.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_includes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/attorney.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/calendar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/db_connection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/event.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/judge.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/404-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-title-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-title-top-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/linkedin-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/page-title-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/woman_on_phone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judges.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-bg-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-bg-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-building-1-800x132.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/about-title-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/accounting-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/aditya-chinchure-494048-unsplash-800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/aditya-chinchure-494048-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/alumni-about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/annie-spratt-294450-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/annie-spratt-294450-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/apply-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/austin-neill-247047-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/banner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/banner-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/banner-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/banner-4-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/banner-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/campus-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-bg-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-bg-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/col-icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/coming-soon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/dan-gold-105699-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/dan-gold-105699-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/ellehem-693-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/fancycrave-270977-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/giammarco-boscaro-380907-unsplash-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/giammarco-boscaro-380907-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp-2-half.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp-donation-400x212.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-1-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-2-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-3-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-4-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-col-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-link-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-search-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/hp2-video-bg-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-parking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-transportation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/icon-trophy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/image-bg-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/image-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/image-bg-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/image-bg-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/image-bg-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/jakob-owens-199505-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash-800x995.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/joshua-fuller-368384-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/life-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/life-bus-400x202.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/life-title-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/link-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/major-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-1-800x802.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/marvin-ronsdorf-196913-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/mega-menu-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/mega-menu-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/nathan-dumlao-572047-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/newsletter-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/nils-478-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/page-title-apply.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/page-title-athletics-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/page-title-athletics.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/page-title-support.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/page-title.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pawel-czerwinski-705954-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pawel-czerwinski-705954-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-1-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-1-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-2-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-2-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-3-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-3-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-4-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-4-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-5-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-5-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-6-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-6-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-7-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-7-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/personnel-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-1-800x531.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-29585-800x532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-29585.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-66134-800x532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-66134.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-800x532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/pexels-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-1-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-1-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-1-600x386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-10-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-10-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-10-600x386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-11-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-11-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-11-600x454.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-12-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-12-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-12-600x386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-2-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-2-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-2-600x316.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-3-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-3-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-3-600x386.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-4-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-4-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-4-600x351.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-5-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-5-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-5-600x368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-6-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-6-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-6-600x420.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-7-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-7-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-7-600x351.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-8-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-8-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-8-600x414.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-9-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-9-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-9-600x360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/product-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/puk-khantho-125951-unsplash-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/puk-khantho-125951-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1-800x472.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-577480-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/rawpixel-649905-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/scholarship-student-600x387.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/scholarships-title-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/search-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/search-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/seth-reese-599260-unsplash-800x515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/seth-reese-599260-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x525.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549-800x574.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_106223549.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_111027356-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_111027356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_115143385.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_123383902.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_132304208.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_134777864.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x512.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689-800x560.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_135948689.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150587615.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1-1000x346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_150681635-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_160526219.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_166604900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_167044400-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_167044400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_177301904-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_177301904.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_183400235-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_206350801.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_209187682.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_212251981.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_213333985.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_218235040.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_230410570.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_250822657-800x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_250822657.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_261010109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_270733466-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_270733466.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_284650220.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_289596839.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_294489926.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474-800x546.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_299633474.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_310855142.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_327174593.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_331524281-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_331524281.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_339364214-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_339364214.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361397258.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_361957010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_378626257-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_378626257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_381527992.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_400221589-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_400221589.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_447921760.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-300x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-800x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_450689383.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_470072063-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_470072063.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205-800x405.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_481869205.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027-500x692.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_516640027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_519924262.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_53600224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_547272460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_548927521.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_578916526-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279-800x525.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_59887279.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_608688050.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_628998404.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-500x346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757-800x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_685407757.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_689717260-800x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_689717260.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_704277943.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535-800x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_734589535.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-300x200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_735267403.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_780740548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-495x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-500x346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-500x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x356.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x362.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486-800x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_787201486.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_82383217-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_82383217.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673-800x292.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673-800x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/shutterstock_98035673.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/slider-hp2-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/support-building-800x236.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/support-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/support-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/support-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tab-1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tab-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tab-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tab-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/thermometer-temperature-fever-flu-800x532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/thermometer-temperature-fever-flu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/title-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x377.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-400x534.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688-800x523.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/training-train-lime-barbell-39688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash-400x257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash-600x333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/tyler-callahan-662157-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/member-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -551,6 +39,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="1ey5m1AfenIKxVYSr0XWfnqG2tG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -559,27 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="remote host&#9;ACTION&#9;WebDeployment.BrowseServers" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "2025-spring-changes",
+    "last_opened_file_path": "/Users/scott/Development/bar_assoc_html",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\scott\Development\Websites\Kankakee Bar Association" />
@@ -593,6 +79,14 @@
       <recent name="C:\Users\scott\Desktop\bar website\images" />
       <recent name="C:\Users\scott\Desktop\bar website\classes" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.115" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.115" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -655,6 +149,7 @@
       <workItem from="1636647607484" duration="77000" />
       <workItem from="1656118404259" duration="3464000" />
       <workItem from="1708805135385" duration="638000" />
+      <workItem from="1745854393992" duration="16603000" />
     </task>
     <servers />
   </component>
@@ -671,6 +166,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
